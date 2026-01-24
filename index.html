@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyGet - Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #1a1a2e;
+            color: #f0f0f0;
+            height: 100vh;
+            overflow: hidden;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* شاشة الدخول بالرقم السري */
+        .login-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #8B0000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 0.5s;
+        }
+
+        .login-container {
+            background-color: #6d0000;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            width: 90%;
+            max-width: 450px;
+            border: 2px solid #ff3333;
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+            color: #ffcccc;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .login-container p {
+            margin-bottom: 30px;
+            color: #ff9999;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .pin-input {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+            gap: 15px;
+        }
+
+        .pin-digit {
+            width: 60px;
+            height: 70px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            background-color: #4d0000;
+            border: 2px solid #ff3333;
+            border-radius: 15px;
+            color: white;
+            transition: all 0.3s;
+        }
+
+        .pin-digit:focus {
+            outline: none;
+            border-color: #ff6666;
+            box-shadow: 0 0 10px #ff6666;
+            background-color: #5a0000;
+        }
+
+        .login-btn {
+            background-color: #ff3333;
+            color: white;
+            border: none;
+            padding: 15px 35px;
+            font-size: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .login-btn:hover {
+            background-color: #ff5555;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 51, 51, 0.4);
+        }
+
+        .error-message {
+            color: #ff9999;
+            margin-top: 15px;
+            height: 22px;
+            font-size: 15px;
+            min-height: 22px;
+        }
+
+        .attempts-info {
+            color: #ffb3b3;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+        .lockout-message {
+            color: #ff6666;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+
+        /* محتوى الصفحة الرئيسية */
+        .main-content {
+            display: none;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: #2d1b3e;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #ff3333;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #ff3333;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo i {
+            font-size: 32px;
+            color: #ff0000;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            background-color: #3a2b4a;
+            border-radius: 30px;
+            padding: 10px 18px;
+            width: 340px;
+            border: 2px solid #ff3333;
+        }
+
+        .search-container i {
+            color: #ff9999;
+            margin-right: 12px;
+            font-size: 18px;
+        }
+
+        #search-input {
+            background: transparent;
+            border: none;
+            color: white;
+            width: 100%;
+            font-size: 17px;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #search-input:focus {
+            outline: none;
+        }
+
+        /* تبويب الصفحات */
+        .tabs-container {
+            background-color: #2d1b3e;
+            border-bottom: 2px solid #ff3333;
+            display: flex;
+            overflow-x: auto;
+            height: 50px;
+            flex-shrink: 0;
+        }
+
+        .tab {
+            padding: 0 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #3a2b4a;
+            border-right: 1px solid #4a3a5a;
+            cursor: pointer;
+            color: #ff9999;
+            white-space: nowrap;
+            min-width: 150px;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            background-color: #4a3a5a;
+        }
+
+        .tab.active {
+            background-color: #1a1a2e;
+            color: #fff;
+            border-bottom: 3px solid #ff3333;
+        }
+
+        .tab .close-btn {
+            margin-left: auto;
+            color: #ff6666;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tab:hover .close-btn {
+            opacity: 1;
+        }
+
+        .close-btn:hover {
+            color: #ff3333;
+            transform: scale(1.2);
+        }
+
+        .tab .file-icon {
+            color: #ff6666;
+        }
+
+        .tab.unsaved .file-icon::after {
+            content: "•";
+            color: #ff3333;
+            position: absolute;
+            top: 5px;
+            left: 18px;
+            font-size: 20px;
+        }
+
+        .add-tab-btn {
+            padding: 0 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3a2b4a;
+            color: #ff9999;
+            cursor: pointer;
+            font-size: 20px;
+            min-width: 60px;
+            transition: all 0.3s;
+        }
+
+        .add-tab-btn:hover {
+            background-color: #4a3a5a;
+            color: #fff;
+        }
+
+        .editor-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .line-numbers {
+            background-color: #2d1b3e;
+            padding: 20px 15px;
+            text-align: right;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 28px;
+            color: #ff9999;
+            width: 70px;
+            border-right: 2px solid #ff3333;
+        }
+
+        .code-editor {
+            flex: 1;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 28px;
+            background-color: #1a1a2e;
+            color: #f0f0f0;
+            border: none;
+            resize: none;
+            outline: none;
+            overflow-y: auto;
+            white-space: pre;
+            tab-size: 4;
+            text-align: left;
+            direction: ltr;
+        }
+
+        .footer {
+            background-color: #2d1b3e;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 3px solid #ff3333;
+        }
+
+        .stats {
+            color: #ff9999;
+            font-size: 16px;
+            display: flex;
+            gap: 25px;
+        }
+
+        .save-btn {
+            background-color: #ff3333;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+
+        .save-btn:hover {
+            background-color: #ff5555;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 51, 51, 0.4);
+        }
+
+        .save-btn.saved {
+            background-color: #2ecc71;
+        }
+
+        .highlight {
+            background-color: #ffcc00 !important;
+            color: #000 !important;
+            padding: 2px 0;
+            border-radius: 3px;
+        }
+
+        /* نافذة إنشاء ملف جديد */
+        .new-file-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .modal-content {
+            background-color: #2d1b3e;
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            border: 2px solid #ff3333;
+            text-align: left;
+        }
+
+        .modal-content h3 {
+            color: #ffcccc;
+            margin-bottom: 20px;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-name-input {
+            width: 100%;
+            padding: 15px;
+            background-color: #3a2b4a;
+            border: 2px solid #ff3333;
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: left;
+            direction: ltr;
+        }
+
+        .file-name-input:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: flex-end;
+        }
+
+        .modal-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .modal-btn.cancel {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .modal-btn.cancel:hover {
+            background-color: #5a6268;
+        }
+
+        .modal-btn.create {
+            background-color: #ff3333;
+            color: white;
+        }
+
+        .modal-btn.create:hover {
+            background-color: #ff5555;
+            transform: translateY(-2px);
+        }
+
+        /* تصميم متجاوب للهواتف */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 20px;
+                padding: 15px;
+            }
+
+            .search-container {
+                width: 100%;
+                order: 3;
+                margin-top: 15px;
+            }
+
+            .logo {
+                font-size: 22px;
+            }
+
+            .login-container {
+                padding: 30px 20px;
+                width: 95%;
+            }
+
+            .pin-digit {
+                width: 50px;
+                height: 60px;
+                font-size: 24px;
+            }
+
+            .footer {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .tabs-container {
+                height: 45px;
+            }
+
+            .tab {
+                min-width: 120px;
+                padding: 0 15px;
+                font-size: 14px;
+            }
+
+            .line-numbers {
+                width: 55px;
+                padding: 15px 8px;
+                font-size: 16px;
+            }
+
+            .code-editor {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .modal-content {
+                padding: 20px;
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- شاشة الدخول بالرقم السري -->
+    <div class="login-screen" id="loginScreen">
+        <div class="login-container">
+            <h1><i class="fas fa-lock"></i> EasyGet - Security</h1>
+            <p>Please enter your PIN to access the code editor!</p>
+            
+            <div class="pin-input">
+                <input type="password" class="pin-digit" maxlength="1" id="digit1">
+                <input type="password" class="pin-digit" maxlength="1" id="digit2">
+                <input type="password" class="pin-digit" maxlength="1" id="digit3">
+                <input type="password" class="pin-digit" maxlength="1" id="digit4">
+            </div>
+            
+            <button class="login-btn" id="loginBtn">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+            
+            <div class="error-message" id="errorMessage"></div>
+            <div class="attempts-info" id="attemptsInfo">Remaining attempts: 3</div>
+            <div class="lockout-message" id="lockoutMessage"></div>
+        </div>
+    </div>
+
+    <!-- نافذة إنشاء ملف جديد -->
+    <div class="new-file-modal" id="newFileModal">
+        <div class="modal-content">
+            <h3><i class="fas fa-file-circle-plus"></i> Create New File</h3>
+            <input type="text" class="file-name-input" id="fileNameInput" placeholder="Enter file name (e.g., DATA_BRAND.JSON)">
+            <div class="modal-buttons">
+                <button class="modal-btn cancel" id="cancelBtn">Cancel</button>
+                <button class="modal-btn create" id="createBtn">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="main-content" id="mainContent">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>EasyGet - Code Editor</span>
+            </div>
+            
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search in code... (Press Enter)">
+            </div>
+        </div>
+
+        <!-- تبويب الصفحات -->
+        <div class="tabs-container" id="tabsContainer">
+            <div class="tab active" data-tab="default">
+                <i class="fas fa-file file-icon"></i>
+                <span class="tab-title">stores.Json</span>
+                <span class="close-btn"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="add-tab-btn" id="addTabBtn">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+
+        <div class="editor-container">
+            <div class="line-numbers" id="lineNumbers">1</div>
+            <textarea class="code-editor" id="codeEditor" placeholder="Write your code here..." data-tab="default"></textarea>
+        </div>
+
+        <div class="footer">
+            <div class="stats">
+                <span id="lineCount">Lines: 1</span>
+                <span id="charCount">Characters: 0</span>
+                <span id="currentFile">File: DATA.JSON</span>
+            </div>
+            <button class="save-btn" id="saveBtn">
+                <i class="fas fa-save"></i>
+                <span>Save Code</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // العناصر الرئيسية
+        const loginScreen = document.getElementById('loginScreen');
+        const mainContent = document.getElementById('mainContent');
+        const loginBtn = document.getElementById('loginBtn');
+        const errorMessage = document.getElementById('errorMessage');
+        const attemptsInfo = document.getElementById('attemptsInfo');
+        const lockoutMessage = document.getElementById('lockoutMessage');
+        const pinDigits = document.querySelectorAll('.pin-digit');
+        const codeEditor = document.getElementById('codeEditor');
+        const lineNumbers = document.getElementById('lineNumbers');
+        const searchInput = document.getElementById('search-input');
+        const saveBtn = document.getElementById('saveBtn');
+        const lineCount = document.getElementById('lineCount');
+        const charCount = document.getElementById('charCount');
+        const currentFile = document.getElementById('currentFile');
+        const tabsContainer = document.getElementById('tabsContainer');
+        const addTabBtn = document.getElementById('addTabBtn');
+        const newFileModal = document.getElementById('newFileModal');
+        const fileNameInput = document.getElementById('fileNameInput');
+        const cancelBtn = document.getElementById('cancelBtn');
+        const createBtn = document.getElementById('createBtn');
+
+        // إعدادات الرقم السري
+        const CORRECT_PIN = "0000";
+        let attemptsLeft = 3;
+        let lockoutUntil = 0;
+
+        // إدارة الصفحات
+        let tabs = {
+            'default': {
+                id: 'default',
+                title: 'DATA.JSON',
+                content: '',
+                saved: true
+            }
+        };
+        let activeTabId = 'default';
+
+        // التركيز على أول خانة من الرقم السري
+        pinDigits[0].focus();
+
+        // التحقق من حالة القفل عند تحميل الصفحة
+        checkLockoutStatus();
+
+        // نقل التركيز بين خانات الرقم السري
+        pinDigits.forEach((digit, index) => {
+            digit.addEventListener('input', (e) => {
+                if (digit.value.length === 1 && index < pinDigits.length - 1) {
+                    pinDigits[index + 1].focus();
+                }
+                
+                // إخفاء رسالة الخطأ لما يبدأ يكتب تاني
+                if (errorMessage.textContent) {
+                    errorMessage.textContent = '';
+                }
+            });
+
+            digit.addEventListener('keydown', (e) => {
+                if (e.key === 'Backspace') {
+                    if (!digit.value && index > 0) {
+                        pinDigits[index - 1].focus();
+                        pinDigits[index - 1].value = '';
+                    }
+                }
+            });
+        });
+
+        // زر الدخول
+        loginBtn.addEventListener('click', validatePin);
+
+        // السماح بالدخول بالضغط على Enter
+        pinDigits.forEach(digit => {
+            digit.addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') {
+                    validatePin();
+                }
+            });
+        });
+
+        // التحقق من الرقم السري
+        function validatePin() {
+            // التحقق من حالة القفل
+            if (lockoutUntil > Date.now()) {
+                const remainingSeconds = Math.ceil((lockoutUntil - Date.now()) / 1000);
+                lockoutMessage.textContent = `Locked. Wait ${remainingSeconds} seconds`;
+                return;
+            }
+
+            // تجميع الرقم السري المدخل
+            const enteredPin = Array.from(pinDigits).map(d => d.value).join('');
+            
+            // التحقق من الرقم السري
+            if (enteredPin === CORRECT_PIN) {
+                // نجاح الدخول
+                loginScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loginScreen.style.display = 'none';
+                    mainContent.style.display = 'flex';
+                    loadSavedCode();
+                    updateLineNumbers();
+                }, 500);
+                
+                // إعادة تعيين المحاولات
+                attemptsLeft = 3;
+                updateAttemptsInfo();
+                errorMessage.textContent = '';
+                lockoutMessage.textContent = '';
+            } else {
+                // خطأ في الرقم السري
+                attemptsLeft--;
+                
+                if (attemptsLeft <= 0) {
+                    // قفل الحساب لمدة 30 ثانية
+                    lockoutUntil = Date.now() + 30000;
+                    lockoutMessage.textContent = 'Account locked for 30 seconds!';
+                    attemptsLeft = 3;
+                    updateAttemptsInfo();
+                } else {
+                    errorMessage.textContent = 'Incorrect PIN';
+                    updateAttemptsInfo();
+                }
+                
+                // مسح حقول الإدخال
+                pinDigits.forEach(digit => {
+                    digit.value = '';
+                });
+                pinDigits[0].focus();
+                
+                // اهتزاز الحقول
+                pinDigits.forEach(digit => {
+                    digit.style.transform = 'translateX(5px)';
+                    setTimeout(() => {
+                        digit.style.transform = 'translateX(-5px)';
+                        setTimeout(() => {
+                            digit.style.transform = 'translateX(0)';
+                        }, 50);
+                    }, 50);
+                });
+            }
+            
+            // حفظ حالة القفل
+            localStorage.setItem('lockoutUntil', lockoutUntil);
+        }
+
+        // التحقق من حالة القفل
+        function checkLockoutStatus() {
+            const savedLockout = localStorage.getItem('lockoutUntil');
+            if (savedLockout) {
+                lockoutUntil = parseInt(savedLockout);
+                
+                if (lockoutUntil > Date.now()) {
+                    const remainingSeconds = Math.ceil((lockoutUntil - Date.now()) / 1000);
+                    lockoutMessage.textContent = `Locked. Wait ${remainingSeconds} seconds`;
+                } else {
+                    lockoutMessage.textContent = '';
+                }
+            }
+            
+            updateAttemptsInfo();
+        }
+
+        // تحديث معلومات المحاولات
+        function updateAttemptsInfo() {
+            attemptsInfo.textContent = `Remaining attempts: ${attemptsLeft}`;
+        }
+
+        // تحديث أرقام الأسطر
+        function updateLineNumbers() {
+            const lines = codeEditor.value.split('\n').length;
+            lineNumbers.innerHTML = '';
+            
+            for (let i = 1; i <= lines; i++) {
+                const lineNumber = document.createElement('div');
+                lineNumber.textContent = i;
+                lineNumbers.appendChild(lineNumber);
+            }
+            
+            lineCount.textContent = `Lines: ${lines}`;
+            charCount.textContent = `Characters: ${codeEditor.value.length}`;
+            currentFile.textContent = `File: ${tabs[activeTabId].title}`;
+        }
+
+        // تحميل الكود المحفوظ
+        function loadSavedCode() {
+            // تحميل المحتوى المحفوظ لكل تبويب
+            const savedTabs = localStorage.getItem('easyget_savedTabs');
+            if (savedTabs) {
+                const parsedTabs = JSON.parse(savedTabs);
+                
+                // تحديث التبويبات من localStorage
+                Object.keys(parsedTabs).forEach(tabId => {
+                    tabs[tabId] = parsedTabs[tabId];
+                    
+                    // إنشاء عنصر التبويب في الواجهة (فقط إذا كان ليس ملف default)
+                    if (tabId !== 'default') {
+                        createTabElement(tabId, parsedTabs[tabId].title, parsedTabs[tabId].saved);
+                    }
+                });
+            }
+            
+            // تحميل محتوى التبويب النشط
+            if (tabs[activeTabId] && tabs[activeTabId].content) {
+                codeEditor.value = tabs[activeTabId].content;
+            } else {
+                // إذا لم يكن هناك محتوى، نضيف محتوى افتراضي
+                tabs[activeTabId] = {
+                    id: activeTabId,
+                    title: 'DATA.JSON',
+                    content: '',
+                    saved: true
+                };
+            }
+            
+            updateLineNumbers();
+        }
+
+        // حفظ الكود
+        saveBtn.addEventListener('click', () => {
+            // حفظ محتوى التبويب النشط
+            tabs[activeTabId].content = codeEditor.value;
+            tabs[activeTabId].saved = true;
+            
+            // تحديث علامة الملف غير المحفوظ
+            updateTabSavedStatus(activeTabId, true);
+            
+            // حفظ كل التبويبات في localStorage
+            localStorage.setItem('easyget_savedTabs', JSON.stringify(tabs));
+            
+            saveBtn.classList.add('saved');
+            saveBtn.innerHTML = '<i class="fas fa-check"></i><span>Saved!</span>';
+            
+            setTimeout(() => {
+                saveBtn.classList.remove('saved');
+                saveBtn.innerHTML = '<i class="fas fa-save"></i><span>Save Code</span>';
+            }, 2000);
+        });
+
+        // تحديث أرقام الأسطر أثناء الكتابة
+        codeEditor.addEventListener('input', () => {
+            if (tabs[activeTabId]) {
+                tabs[activeTabId].content = codeEditor.value;
+                tabs[activeTabId].saved = false;
+                updateTabSavedStatus(activeTabId, false);
+                updateLineNumbers();
+            }
+        });
+
+        // البحث في النص عند الضغط على Enter في حقل البحث
+        searchInput.addEventListener('keyup', (e) => {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        // وظيفة البحث مع الانتقال التلقائي
+        function performSearch() {
+            const searchTerm = searchInput.value.trim();
+            
+            if (!searchTerm) {
+                showErrorMessage("Enter text to search!");
+                return;
+            }
+            
+            const text = codeEditor.value;
+            if (!text) {
+                showErrorMessage("No code to search!");
+                return;
+            }
+            
+            // البحث عن النص
+            const index = text.indexOf(searchTerm);
+            if (index === -1) {
+                showErrorMessage(`"${searchTerm}" not found!`);
+                return;
+            }
+            
+            // تحديد النص المحدد
+            codeEditor.focus();
+            codeEditor.setSelectionRange(index, index + searchTerm.length);
+            
+            // إضافة تأثير مرئي
+            codeEditor.style.boxShadow = "0 0 10px rgba(255, 204, 0, 0.5)";
+            setTimeout(() => {
+                codeEditor.style.boxShadow = "none";
+            }, 1000);
+            
+            // التمرير إلى موقع النص
+            scrollToPosition(index);
+            
+            // عرض رسالة نجاح
+            showErrorMessage(`Found "${searchTerm}" and scrolled to it!`);
+        }
+
+        // التمرير إلى موضع معين في النص
+        function scrollToPosition(position) {
+            const text = codeEditor.value;
+            const lines = text.substring(0, position).split('\n');
+            const lineNumber = lines.length - 1;
+            
+            // حساب ارتفاع السطر
+            const lineHeight = 28;
+            const editorHeight = codeEditor.clientHeight;
+            
+            // حساب موضع التمرير
+            const scrollTop = lineNumber * lineHeight - editorHeight / 3;
+            
+            // التمرير
+            codeEditor.scrollTop = Math.max(0, scrollTop);
+            lineNumbers.scrollTop = codeEditor.scrollTop;
+        }
+
+        // عرض رسالة
+        function showErrorMessage(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.color = "#ff9999";
+            
+            setTimeout(() => {
+                if (errorMessage.textContent === message) {
+                    errorMessage.textContent = "";
+                }
+            }, 3000);
+        }
+
+        // إنشاء عنصر تبويب جديد
+        function createTabElement(tabId, title, saved = true) {
+            const tabElement = document.createElement('div');
+            tabElement.className = 'tab';
+            tabElement.setAttribute('data-tab', tabId);
+            
+            if (!saved) {
+                tabElement.classList.add('unsaved');
+            }
+            
+            tabElement.innerHTML = `
+                <i class="fas fa-file file-icon"></i>
+                <span class="tab-title">${title}</span>
+                <span class="close-btn"><i class="fas fa-times"></i></span>
+            `;
+            
+            // إضافة التبويب قبل زر الإضافة
+            addTabBtn.parentNode.insertBefore(tabElement, addTabBtn);
+            
+            // إضافة حدث النقر على التبويب
+            tabElement.addEventListener('click', function(e) {
+                // منع التنفيذ إذا تم النقر على زر الإغلاق
+                if (e.target.closest('.close-btn')) {
+                    return;
+                }
+                
+                // الحصول على معرف التبويب من العنصر المنقور عليه
+                const clickedTabId = this.getAttribute('data-tab');
+                
+                // التحقق إذا كان التبويب غير نشط بالفعل
+                if (clickedTabId !== activeTabId) {
+                    switchTab(clickedTabId);
+                }
+            });
+            
+            // حدث إغلاق التبويب
+            const closeBtn = tabElement.querySelector('.close-btn');
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                closeTab(tabId);
+            });
+            
+            return tabElement;
+        }
+
+        // تحديث حالة حفظ التبويب
+        function updateTabSavedStatus(tabId, saved) {
+            const tabElement = document.querySelector(`.tab[data-tab="${tabId}"]`);
+            if (tabElement) {
+                if (saved) {
+                    tabElement.classList.remove('unsaved');
+                } else {
+                    tabElement.classList.add('unsaved');
+                }
+            }
+        }
+
+        // تبديل التبويب - الإصلاح هنا
+        function switchTab(tabId) {
+            console.log('Switching to tab:', tabId, 'Current tab:', activeTabId);
+            
+            // حفظ محتوى التبويب الحالي قبل التبديل
+            if (tabs[activeTabId]) {
+                tabs[activeTabId].content = codeEditor.value;
+                console.log('Saved content of current tab:', activeTabId);
+            }
+            
+            // تحديث التبويب النشط في الذاكرة
+            activeTabId = tabId;
+            
+            // تحديث التبويب النشط في الواجهة
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            const activeTabElement = document.querySelector(`.tab[data-tab="${tabId}"]`);
+            if (activeTabElement) {
+                activeTabElement.classList.add('active');
+                console.log('Activated tab element:', tabId);
+            } else {
+                console.error('Tab element not found:', tabId);
+                return;
+            }
+            
+            // تحديث المحرر بالمحتوى الجديد
+            if (tabs[tabId]) {
+                codeEditor.value = tabs[tabId].content || '';
+                codeEditor.setAttribute('data-tab', tabId);
+                console.log('Loaded content for tab:', tabId);
+            } else {
+                // إذا لم يكن التبويب موجودًا في الذاكرة، ننشئه
+                tabs[tabId] = {
+                    id: tabId,
+                    title: document.querySelector(`.tab[data-tab="${tabId}"] .tab-title`).textContent,
+                    content: '',
+                    saved: true
+                };
+                codeEditor.value = '';
+                codeEditor.setAttribute('data-tab', tabId);
+                console.log('Created new tab in memory:', tabId);
+            }
+            
+            // تحديث العداد والإحصائيات
+            updateLineNumbers();
+            
+            // إعادة تعيين حقل البحث
+            searchInput.value = '';
+            
+            // إعطاء التركيز للمحرر
+            codeEditor.focus();
+            
+            console.log('Tab switch completed to:', tabId);
+        }
+
+        // إغلاق التبويب
+        function closeTab(tabId) {
+            if (tabId === 'default') {
+                showErrorMessage("Cannot close main file!");
+                return;
+            }
+            
+            // التحقق من حالة الحفظ
+            if (tabs[tabId] && !tabs[tabId].saved) {
+                if (!confirm(`File "${tabs[tabId].title}" is not saved. Close anyway?`)) {
+                    return;
+                }
+            }
+            
+            // حذف التبويب من الذاكرة
+            delete tabs[tabId];
+            
+            // حذف التبويب من الواجهة
+            const tabElement = document.querySelector(`.tab[data-tab="${tabId}"]`);
+            if (tabElement) {
+                tabElement.remove();
+            }
+            
+            // إذا كان التبويب المغلق هو النشط، نفتح التبويب الافتراضي
+            if (activeTabId === tabId) {
+                switchTab('default');
+            }
+            
+            // حفظ التبويبات المتبقية
+            localStorage.setItem('easyget_savedTabs', JSON.stringify(tabs));
+        }
+
+        // إنشاء ملف جديد
+        function createNewFile(fileName) {
+            if (!fileName.trim()) {
+                showErrorMessage("File name cannot be empty!");
+                return;
+            }
+            
+            // إضافة امتداد .JSON إذا لم يكن موجود
+            if (!fileName.toUpperCase().endsWith('.JSON')) {
+                fileName += '.JSON';
+            }
+            
+            const tabId = 'tab_' + Date.now(); // استخدام timestamp ليكون فريد
+            
+            // إنشاء تبويب جديد
+            tabs[tabId] = {
+                id: tabId,
+                title: fileName,
+                content: '',
+                saved: true
+            };
+            
+            // إنشاء عنصر التبويب في الواجهة
+            createTabElement(tabId, fileName, true);
+            
+            // حفظ التبويبات أولاً
+            localStorage.setItem('easyget_savedTabs', JSON.stringify(tabs));
+            
+            // إغلاق نافذة الإنشاء
+            newFileModal.style.display = 'none';
+            fileNameInput.value = '';
+            
+            // إضافة محتوى افتراضي للملف الجديد
+            const defaultContent = `{\n  "fileName": "${fileName}",\n  "createdAt": "${new Date().toLocaleDateString()}",\n  "data": []\n}`;
+            
+            // فتح التبويب الجديد (يجب أن يكون بعد إنشاء العنصر)
+            setTimeout(() => {
+                switchTab(tabId);
+                codeEditor.value = defaultContent;
+                tabs[tabId].content = defaultContent;
+                updateLineNumbers();
+            }, 50);
+        }
+
+        // أحداث إضافة تبويب جديد
+        addTabBtn.addEventListener('click', () => {
+            newFileModal.style.display = 'flex';
+            fileNameInput.focus();
+        });
+
+        cancelBtn.addEventListener('click', () => {
+            newFileModal.style.display = 'none';
+            fileNameInput.value = '';
+        });
+
+        createBtn.addEventListener('click', () => {
+            createNewFile(fileNameInput.value);
+        });
+
+        fileNameInput.addEventListener('keyup', (e) => {
+            if (e.key === 'Enter') {
+                createNewFile(fileNameInput.value);
+            } else if (e.key === 'Escape') {
+                newFileModal.style.display = 'none';
+                fileNameInput.value = '';
+            }
+        });
+
+        // السماح بحفظ بالضغط على Ctrl+S
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+                e.preventDefault();
+                saveBtn.click();
+            }
+        });
+
+        // إضافة بعض الكود الافتراضي عند أول دخول
+        window.addEventListener('load', () => {
+            if (!localStorage.getItem('easyget_firstVisit')) {
+                const defaultCode = `{\n  "name": "EasyGet Editor",\n  "version": "1.0.0",\n  "description": "Multi-page code editor",\n  "features": [\n    "Secure PIN login",\n    "Multiple file management",\n    "Text search",\n    "Auto-save"\n  ],\n  "data": [\n    {\n      "id": 1,\n      "type": "user",\n      "name": "Admin"\n    },\n    {\n      "id": 2,\n      "type": "config",\n      "setting": "autoSave"\n    }\n  ]\n}`;
+                
+                tabs['default'].content = defaultCode;
+                localStorage.setItem('easyget_savedTabs', JSON.stringify(tabs));
+                localStorage.setItem('easyget_firstVisit', 'true');
+                
+                // عند الدخول لأول مرة، نعرض الكود الافتراضي
+                setTimeout(() => {
+                    if (codeEditor.value === "") {
+                        codeEditor.value = defaultCode;
+                        updateLineNumbers();
+                    }
+                }, 100);
+            }
+        });
+
+        // جعل البحث يعمل أيضًا بالنقر على أيقونة البحث
+        document.querySelector('.search-container i').addEventListener('click', performSearch);
+
+        // السماح بالتبديل بين الملفات باستخدام Ctrl+Tab
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'Tab') {
+                e.preventDefault();
+                
+                const tabIds = Object.keys(tabs);
+                const currentIndex = tabIds.indexOf(activeTabId);
+                const nextIndex = (currentIndex + 1) % tabIds.length;
+                
+                switchTab(tabIds[nextIndex]);
+            }
+        });
+
+        // إضافة حدث النقر للتبويب الافتراضي عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', function() {
+            const defaultTab = document.querySelector('.tab[data-tab="default"]');
+            if (defaultTab) {
+                defaultTab.addEventListener('click', function(e) {
+                    if (!e.target.closest('.close-btn')) {
+                        switchTab('default');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
