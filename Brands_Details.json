@@ -1,0 +1,174 @@
+{
+  "brands": {
+    "1": {
+      "name": "GlamBox Egypt",
+      "orderUrl": "https://www.pinkglambox.com/",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4rBm9u3jnN4xlQoKxwQ4P3Uu7JWi0p08b_A&s",
+      "description": "GlamBox دللي نفسكِ بصندوق من السعادة!",
+      "rating": 4.3,
+      "deliveryTime": "2-4 أيام",
+      "deliveryFee": "ج.م 65",
+      "minPrice": 270,
+      "maxPrice": 1300,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": ["الدفع عند الأستلام أو", "المحافظ إلكترونية أو", "إنستا باي"],
+      "socialMedia": {
+        "instagram": "https://instagram.com/glambox.egypt",
+        "facebook": "https://facebook.com/GlamBoxEgypt",
+        "tiktok": "https://tiktok.com/@glambox.egypt",
+        "whatsapp": "https://wa.me/201234567890"
+      },
+      "products": [
+        "https://lblacosmetics.com/cdn/shop/products/Glam-Box-Open-Cosmetics-Master-VG-_1_1200x.jpg?v=1670016507",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg76VxO7oqnmTvcEdfOkygJ_BiQwGt0GlNKg&s"
+      ],
+      "productsList": [
+        {
+          "name_product": "صندوق الجمال",
+          "imageUrl": "https://lblacosmetics.com/cdn/shop/products/Glam-Box-Open-Cosmetics-Master-VG-_1_1200x.jpg?v=1670016507",
+          "price": "570"
+        },
+        {
+          "name_product": "صندوق العناية الفاخر",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg76VxO7oqnmTvcEdfOkygJ_BiQwGt0GlNKg&s",
+          "price": "850"
+        }
+      ]
+    },
+    "fatis": {
+      "name": "Fati's",
+      "orderUrl": "https://www.fatis-eg.com/en",
+      "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
+      "description": "دونات لذيذة وطازجة، تصنع بالسعادة والحب!",
+      "rating": 4.4,
+      "deliveryTime": "2-4 ساعات",
+      "deliveryFee": "ج.م 45",
+      "minPrice": 70,
+      "maxPrice": 460,
+      "deliveryAreas": "القاهرة والجيزة",
+      "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
+      "socialMedia": {
+        "instagram": "https://instagram.com/fatis.donats",
+        "facebook": "https://facebook.com/fatis.donats",
+        "tiktok": "https://tiktok.com/@fatis.donats",
+        "whatsapp": "https://wa.me/201234567891"
+      },
+      "products": [
+        "https://static.zyda.com/photos/restaurants/photo_urls/4771/original/191975_1729868502_9d54a3c2-aba8-4429-8521-5cd6fb64d092_1080x_auto_none.jpeg?1744281017",
+        "https://www.al-makan.com/wp-content/uploads/2024/04/Fatis.webp",
+        "https://www.foodtodayeg.com/Content/Upload/large/22024613355612853331.jpg"
+      ],
+      "productsList": [
+        {
+          "name_product": "دونات لوتس",
+          "imageUrl": "https://preppy-eg.com/wp-content/uploads/2024/01/%D8%AF%D9%88%D9%86%D8%AA-%D9%84%D9%88%D8%AA%D8%B3-32.webp",
+          "price": "70"
+        },
+        {
+          "name_product": "دونات بستاشيو",
+          "imageUrl": "https://assets.wuiltstore.com/cmarf83av2qlg01m13sclckxo_1000144699.png",
+          "price": "95"
+        },
+        {
+          "name_product": "دونات شوكولاتة",
+          "imageUrl": "https://static.vecteezy.com/system/resources/previews/027/096/759/non_2x/chocolate-donut-isolated-png.png",
+          "price": "80"
+        },
+        {
+          "name_product": "دونات فراولة",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8zAtygU9ICk6z6xYeIzHPokpeZ1YGsEc0GA&s",
+          "price": "75"
+        },
+        {
+          "name_product": "دونات كراميل",
+          "imageUrl": "https://example.com/donut-caramel.jpg",
+          "price": "85"
+        }
+      ]
+    },
+    "abu_auf": {
+      "name": "أبوعوف",
+      "orderUrl": "https://www.abuauf.com/?srsltid=AfmBOop45ezwUkMrbGuLZ3O5HJHGSUplbwIRy4oDZSvKDGPaQq5xicGX",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
+      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
+      "rating": 4.6,
+      "deliveryTime": "2-4 ساعات",
+      "deliveryFee": "ج.م 65",
+      "minPrice": 45,
+      "maxPrice": 1280,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
+      "socialMedia": {
+        "instagram": "https://instagram.com/fatis.donats",
+        "facebook": "https://facebook.com/fatis.donats",
+        "tiktok": "https://tiktok.com/@fatis.donats",
+        "whatsapp": "https://wa.me/201234567891"
+      },
+      "products": [
+        "https://backend.abuauf.com/wp-content/uploads/2026/01/taha1mob.webp",
+        "https://backend.abuauf.com/wp-content/uploads/2026/01/taha2.webp",
+        "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2F3.webp&w=3840&q=75"
+      ],
+      "productsList": [
+        {
+          "name_product": "كاجو محمص 140جرام",
+          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr-13.webp",
+          "price": "150"
+        },
+        {
+          "name_product": "عصير بودرة مانجو",
+          "imageUrl": "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2Fpr_11zon-9.webp&w=640&q=75",
+          "price": "61"
+        },
+        {
+          "name_product": "عصير بودرة قمر الدين",
+          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp",
+          "price": "60"
+        },
+        {
+          "name_product": "بلح القافلة 625جرام",
+          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp",
+          "price": "80"
+        }
+      ]
+    },
+    "2": {
+      "name": "Town team",
+      "orderUrl": "https://townteam.com",
+      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
+      "description": "تاون تيم.. عنوان الأناقة الكاجوال في مصر. اكتشف أحدث صيحات الموضة الرجالية وملابس الأطفال بجودة عالمية وتصاميم عصرية تناسب كل يوم. تسوق الآن واحصل على إطلالة تعبر عن شخصيتك",
+      "rating": 4.7,
+      "deliveryTime": "2-5 أيام",
+      "deliveryFee": "ج.م 90",
+      "minPrice": 878,
+      "maxPrice": 7360,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": ["الدفع عند الاستلام", "المحافظ إلكترونية", "بطاقات الدفع"],
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/townteam",
+        "facebook": "https://www.facebook.com/townteam",
+        "tiktok": "https://www.tiktok.com/@townteam98",
+        "website": "https://townteam.com/",
+        "phone": "16579"
+      },
+      "products": [
+        "https://townteam.com/cdn/shop/files/kids50desk_1770x.png?v=1767773074",
+        "https://townteam.com/cdn/shop/files/jacket50desk.png?v=1767773076&width=1370",
+        "https://townteam.com/cdn/shop/files/Overshirt50desk.png?v=1767773064&width=1370",
+        "https://townteam.com/cdn/shop/files/1101maindesk.png?v=1768135173&width=1370"
+      ],
+      "productsList": [
+        {
+          "name_product": "JAC25WWBG28030TM1",
+          "imageUrl": "https://townteam.com/cdn/shop/files/JAC25WWBG28030TM1-Black.jpg?v=1756322879",
+          "price": "1999"
+        },
+        {
+          "name_product": "OSH26WCXR19181TB1",
+          "imageUrl": "https://townteam.com/cdn/shop/files/OSH26WCXR19181TB1-GRY-OFF.jpg?v=1766480100",
+          "price": "1949"
+        }
+      ]
+    }
+  }
+}
