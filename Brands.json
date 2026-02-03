@@ -1,0 +1,118 @@
+{
+  "sliderImages": [
+    "https://i.postimg.cc/mrzBqmrF/thdyth-jdyd-llttbyq-jahz-thmlt.png",
+    "https://alamrakamy.com/storage/articles/March2023/PCIyXap5u0fxwFT75VRD.png",
+    "https://i.postimg.cc/4xzsXr9S/jahz-lrmdan-ʿrd.png",
+    "https://www.foodtodayeg.com/Content/Upload/large/1202429171612316756297.jpg"
+  ],
+  "stores": [
+     {
+      "id": "abu_auf",
+      "name": "أبوعوف",
+      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
+      "rating": 4.6,
+      "category": "أكل",
+      "subcategory": "nuts",
+      "isActive": true
+    },
+       {
+      "id": "abu_auf",
+      "name": "أبوعوف",
+      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
+      "rating": 4.6,
+      "category": "أكل",
+      "subcategory": "drinks",
+      "isActive": true
+    },
+    {
+      "id": "fatis",
+      "name": "Fati's",
+      "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
+      "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
+      "rating": 4.4,
+      "category": "أكل",
+      "subcategory": "sweets",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Town team",
+      "description": "عبّر عن نفسك بجراءة مع تاون تيم. تسوق أحدث الملابس الرجالي، وتوصيل سريع لباب بيتك.",
+      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
+      "rating": 4.7,
+      "category": "ملابس",
+      "subcategory": "mens_clothing",
+      "isActive": true
+    },
+     {
+      "id": "2",
+      "name": "Town team",
+      "description": "عبّر عن نفسك بجراءة مع تاون تيم. تسوق أحدث الملابس الرجالي، وتوصيل سريع لباب بيتك.",
+      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
+      "rating": 4.7,
+      "category": "ملابس",
+      "subcategory": "kids_clothing",
+      "isActive": true
+    },
+    {
+      "id": "1",
+      "name": "GlamBox Egypt",
+      "description": "مستحضرات تجميل وعناية مصرية بأسعار مناسبة.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4rBm9u3jnN4xlQoKxwQ4P3Uu7JWi0p08b_A&s",
+      "rating": 4.3,
+      "category": "العناية",
+      "subcategory": "makeup",
+      "isActive": true
+    }
+  ],
+  "ramadanContainer": {
+    "show": true,
+    "title": "رمضانك_أسهل_معانا",
+    "short_title": "بنقترح عليك المنتجات دي👇",
+    "products": [
+  {
+    "brand_id": "abu_auf",
+    "name_product_ramadan": "كاجو محمص 140جرام",
+    "price_product_ramadan": "150",
+    "name_product_brand": "من براند أبو عوف",
+    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr-13.webp"
+  },
+  {
+    "brand_id": "abu_auf",
+    "name_product_ramadan": "عصير بودرة مانجو",
+    "price_product_ramadan": "61",
+    "name_product_brand": "من براند أبوعوف",
+    "image_product_ramadan": "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2Fpr_11zon-9.webp&w=640&q=75"
+  },
+  {
+    "brand_id": "abu_auf", 
+    "name_product_ramadan": "عصير بودرة قمر الدين",
+    "price_product_ramadan": "60",
+    "name_product_brand": "من براند أبو عوف",
+    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp"
+  },
+  {
+    "brand_id": "abu_auf",
+    "name_product_ramadan": "بلح القافلة 625جرام",
+    "price_product_ramadan": "80",
+    "name_product_brand": "من براند أبو عوف",
+    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp"
+  }
+  ],
+    "startDate": "2026-01-26",
+    "endDate": "2026-03-17"
+  },
+  "coupons": [
+    {
+      "id": "coupon_1",
+      "title": "خصم 200 جنيه",
+      "description": "خصم بقيمة 200 جنيه على مشتريات فوق 1000 جنيه",
+      "code": "EASYGET_SAVE_200",
+      "expiryDate": "2026-02-02",
+      "isActive": true,
+      "isExpired": false
+    }
+  ]
+}
