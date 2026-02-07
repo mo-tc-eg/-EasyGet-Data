@@ -12,12 +12,6 @@
       "maxPrice": 1300,
       "deliveryAreas": "جميع المحافظات",
       "paymentMethods": ["الدفع عند الأستلام أو", "المحافظ إلكترونية أو", "إنستا باي"],
-      "socialMedia": {
-        "instagram": "https://instagram.com/glambox.egypt",
-        "facebook": "https://facebook.com/GlamBoxEgypt",
-        "tiktok": "https://tiktok.com/@glambox.egypt",
-        "whatsapp": "https://wa.me/201234567890"
-      },
       "products": [
         "https://lblacosmetics.com/cdn/shop/products/Glam-Box-Open-Cosmetics-Master-VG-_1_1200x.jpg?v=1670016507",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg76VxO7oqnmTvcEdfOkygJ_BiQwGt0GlNKg&s"
@@ -47,12 +41,6 @@
       "maxPrice": 460,
       "deliveryAreas": "القاهرة والجيزة",
       "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
-      "socialMedia": {
-        "instagram": "https://instagram.com/fatis.donats",
-        "facebook": "https://facebook.com/fatis.donats",
-        "tiktok": "https://tiktok.com/@fatis.donats",
-        "whatsapp": "https://wa.me/201234567891"
-      },
       "products": [
         "https://static.zyda.com/photos/restaurants/photo_urls/4771/original/191975_1729868502_9d54a3c2-aba8-4429-8521-5cd6fb64d092_1080x_auto_none.jpeg?1744281017",
         "https://www.al-makan.com/wp-content/uploads/2024/04/Fatis.webp",
@@ -98,12 +86,6 @@
       "maxPrice": 1280,
       "deliveryAreas": "جميع المحافظات",
       "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
-      "socialMedia": {
-        "instagram": "https://instagram.com/fatis.donats",
-        "facebook": "https://facebook.com/fatis.donats",
-        "tiktok": "https://tiktok.com/@fatis.donats",
-        "whatsapp": "https://wa.me/201234567891"
-      },
       "products": [
         "https://backend.abuauf.com/wp-content/uploads/2026/01/taha1mob.webp",
         "https://backend.abuauf.com/wp-content/uploads/2026/01/taha2.webp",
@@ -144,13 +126,6 @@
       "maxPrice": 7360,
       "deliveryAreas": "جميع المحافظات",
       "paymentMethods": ["الدفع عند الاستلام", "المحافظ إلكترونية", "بطاقات الدفع"],
-      "socialMedia": {
-        "instagram": "https://www.instagram.com/townteam",
-        "facebook": "https://www.facebook.com/townteam",
-        "tiktok": "https://www.tiktok.com/@townteam98",
-        "website": "https://townteam.com/",
-        "phone": "16579"
-      },
       "products": [
         "https://townteam.com/cdn/shop/files/kids50desk_1770x.png?v=1767773074",
         "https://townteam.com/cdn/shop/files/jacket50desk.png?v=1767773076&width=1370",
