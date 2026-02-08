@@ -79,7 +79,8 @@
         {
           "name_product": "دونات ماتيلدا",
           "imageUrl": "",
-          "price": "145"
+          "price": "145",
+          "is_new": true
         },
         {
           "name_product": "دونات كلاسيكية مزججة",
