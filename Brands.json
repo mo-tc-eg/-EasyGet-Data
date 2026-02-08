@@ -54,16 +54,6 @@
       "category": "ملابس",
       "subcategory": "kids_clothing",
       "isActive": true
-    },
-    {
-      "id": "1",
-      "name": "GlamBox Egypt",
-      "description": "مستحضرات تجميل وعناية مصرية بأسعار مناسبة.",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4rBm9u3jnN4xlQoKxwQ4P3Uu7JWi0p08b_A&s",
-      "rating": 4.3,
-      "category": "العناية",
-      "subcategory": "makeup",
-      "isActive": true
     }
   ],
   "ramadanContainer": {
