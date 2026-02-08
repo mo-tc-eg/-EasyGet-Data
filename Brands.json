@@ -66,15 +66,6 @@
       "isActive": true
     }
   ],
-  "occasions": {
-    "active": true,
-    "items": [
-      { "id": "1", "name": "هدايا رمضان", "img": "images/ramadan1.png", "link": "brand_1" },
-      { "id": "2", "name": "فوانيس", "img": "images/ramadan2.png", "link": "brand_2" },
-      { "id": "3", "name": "ولائم", "img": "images/ramadan3.png", "link": "brand_3" },
-      { "id": "4", "name": "ملابس", "img": "images/ramadan4.png", "link": "brand_4" }
-    ]
-  },
   "ramadanContainer": {
     "show": true,
     "title": "رمضانك_أسهل_معانا",
