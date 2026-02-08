@@ -42,17 +42,17 @@
       "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
       "description": "دونات لذيذة وطازجة، تصنع بالسعادة والحب!",
       "rating": 4.4,
-      "deliveryTime": "2-4 ساعات",
-      "deliveryFee": "ج.م 45",
-      "minPrice": 70,
-      "maxPrice": 460,
-      "deliveryAreas": "القاهرة والجيزة",
+      "deliveryTime": "7-5 ساعات",
+      "deliveryFee": "ج.م 65",
+      "minPrice": 50,
+      "maxPrice": 895,
+      "deliveryAreas": "جميع المحفظات",
       "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
       "socialMedia": {
         "instagram": "https://instagram.com/fatis.donats",
         "facebook": "https://facebook.com/fatis.donats",
         "tiktok": "https://tiktok.com/@fatis.donats",
-        "whatsapp": "https://wa.me/201234567891"
+        "website": "https://www.fatis-eg.com/en"
       },
       "products": [
         "https://static.zyda.com/photos/restaurants/photo_urls/4771/original/191975_1729868502_9d54a3c2-aba8-4429-8521-5cd6fb64d092_1080x_auto_none.jpeg?1744281017",
@@ -80,6 +80,11 @@
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fe2a77618-5849-4008-ae9d-55375cf522fd%2Foriginal%2FWhatsApp_Image_2025-07-13_at_08.52.51_f179e55c_640x_auto_none",
           "price": "110",
           "is_new": true
+        },
+        {
+          "name_product": "تيراميسو",
+          "imageUrl": "",
+          "price": "110"
         },
         {
           "name_product": "دونات كلاسيك",
