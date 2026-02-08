@@ -130,7 +130,8 @@
         {
           "name_product": "بلح القافلة 625جرام",
           "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp",
-          "price": "80"
+          "price": "106",
+          "old_price": "80"
         }
       ]
     },
