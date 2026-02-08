@@ -61,29 +61,30 @@
       ],
       "productsList": [
         {
-          "name_product": "دونات لوتس",
-          "imageUrl": "https://preppy-eg.com/wp-content/uploads/2024/01/%D8%AF%D9%88%D9%86%D8%AA-%D9%84%D9%88%D8%AA%D8%B3-32.webp",
-          "price": "70"
+          "name_product": "دونات كيندر",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F01d934ec-5f9e-4cf7-8982-00567b270f26%2Foriginal%2F191975_1715879642_9c0eefa8-9f3b-4b5b-bf97-c7d4a6a183ec_640x_auto_none",
+          "price": "175"
         },
         {
           "name_product": "دونات بستاشيو",
-          "imageUrl": "https://assets.wuiltstore.com/cmarf83av2qlg01m13sclckxo_1000144699.png",
-          "price": "95"
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Feb7d3b73-dde1-4048-aff5-41eefec8c57b%2Foriginal%2F191975_1715881720_9c0efc0a-d427-4933-bc04-ba63b9730a78_640x_auto_none",
+          "price": "120"
         },
         {
           "name_product": "دونات شوكولاتة",
-          "imageUrl": "https://static.vecteezy.com/system/resources/previews/027/096/759/non_2x/chocolate-donut-isolated-png.png",
-          "price": "80"
-        },
-        {
-          "name_product": "دونات فراولة",
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8zAtygU9ICk6z6xYeIzHPokpeZ1YGsEc0GA&s",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none",
           "price": "75"
         },
         {
-          "name_product": "دونات كراميل",
-          "imageUrl": "https://example.com/donut-caramel.jpg",
-          "price": "85"
+          "name_product": "دونات فانليا بومب",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fe2a77618-5849-4008-ae9d-55375cf522fd%2Foriginal%2FWhatsApp_Image_2025-07-13_at_08.52.51_f179e55c_640x_auto_none",
+          "price": "110",
+          "is_new": true
+        },
+        {
+          "name_product": "دونات كلاسيك",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F0233ba3a-1688-4ebb-b60a-2f7349d911fe%2Foriginal%2F191975_1715880173_9c0ef2d2-3dbb-48d0-ba30-e914eb8916af_640x_auto_none",
+          "price": "50"
         }
       ]
     },
