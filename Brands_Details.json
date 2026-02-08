@@ -1,41 +1,6 @@
 
 {
   "brands": {
-    "1": {
-      "name": "GlamBox Egypt",
-      "orderUrl": "https://www.pinkglambox.com/",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4rBm9u3jnN4xlQoKxwQ4P3Uu7JWi0p08b_A&s",
-      "description": "GlamBox دللي نفسكِ بصندوق من السعادة!",
-      "rating": 4.3,
-      "deliveryTime": "2-4 أيام",
-      "deliveryFee": "ج.م 65",
-      "minPrice": 270,
-      "maxPrice": 1300,
-      "deliveryAreas": "جميع المحافظات",
-      "paymentMethods": ["الدفع عند الأستلام أو", "المحافظ إلكترونية أو", "إنستا باي"],
-      "socialMedia": {
-        "instagram": "https://instagram.com/glambox.egypt",
-        "facebook": "https://facebook.com/GlamBoxEgypt",
-        "tiktok": "https://tiktok.com/@glambox.egypt",
-        "whatsapp": "https://wa.me/201234567890"
-      },
-      "products": [
-        "https://lblacosmetics.com/cdn/shop/products/Glam-Box-Open-Cosmetics-Master-VG-_1_1200x.jpg?v=1670016507",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg76VxO7oqnmTvcEdfOkygJ_BiQwGt0GlNKg&s"
-      ],
-      "productsList": [
-        {
-          "name_product": "صندوق الجمال",
-          "imageUrl": "https://lblacosmetics.com/cdn/shop/products/Glam-Box-Open-Cosmetics-Master-VG-_1_1200x.jpg?v=1670016507",
-          "price": "570"
-        },
-        {
-          "name_product": "صندوق العناية الفاخر",
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg76VxO7oqnmTvcEdfOkygJ_BiQwGt0GlNKg&s",
-          "price": "850"
-        }
-      ]
-    },
     "fatis": {
       "name": "Fati's",
       "orderUrl": "https://www.fatis-eg.com/en",
@@ -60,6 +25,11 @@
         "https://www.foodtodayeg.com/Content/Upload/large/22024613355612853331.jpg"
       ],
       "productsList": [
+        {
+          "name_product": "دونات كلاسيك",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F0233ba3a-1688-4ebb-b60a-2f7349d911fe%2Foriginal%2F191975_1715880173_9c0ef2d2-3dbb-48d0-ba30-e914eb8916af_640x_auto_none",
+          "price": "50"
+        },
         {
           "name_product": "دونات كيندر",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F01d934ec-5f9e-4cf7-8982-00567b270f26%2Foriginal%2F191975_1715879642_9c0eefa8-9f3b-4b5b-bf97-c7d4a6a183ec_640x_auto_none",
@@ -87,9 +57,34 @@
           "price": "110"
         },
         {
-          "name_product": "دونات كلاسيك",
-          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F0233ba3a-1688-4ebb-b60a-2f7349d911fe%2Foriginal%2F191975_1715880173_9c0ef2d2-3dbb-48d0-ba30-e914eb8916af_640x_auto_none",
-          "price": "50"
+          "name_product": "دونات كريم برولي",
+          "imageUrl": "",
+          "price": "105"
+        },
+        {
+          "name_product": "دونات لفائف القرفة",
+          "imageUrl": "",
+          "price": "95"
+        },
+        {
+          "name_product": "دونات كريمة الشوكولاتة والبندق",
+          "imageUrl": "",
+          "price": "95"
+        },
+        {
+          "name_product": "دونات لوتس",
+          "imageUrl": "",
+          "price": "100"
+        },
+        {
+          "name_product": "دونات ماتيلدا",
+          "imageUrl": "",
+          "price": "145"
+        },
+        {
+          "name_product": "دونات كلاسيكية مزججة",
+          "imageUrl": "",
+          "price": "75"
         }
       ]
     },
