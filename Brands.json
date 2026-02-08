@@ -106,11 +106,11 @@
   "coupons": [
     {
       "id": "coupon_1",
-      "title": "خصم 200 جنيه",
-      "description": "خصم بقيمة 200 جنيه على مشتريات فوق 1000 جنيه",
-      "code": "EASYGET_SAVE_200",
-      "expiryDate": "2026-02-02",
-      "isActive": true,
+      "title": "خصم ٢٠٪؜",
+      "description": "خصم ٢٠٪؜ علي قسم المكتبة بمناسبة الرجوع للدراسة 😉❤️📚",
+      "code": "BACK_TO_SCHOOL_20",
+      "expiryDate": "2026-02-20",
+        "isActive": true,
       "isExpired": false
     }
   ]
