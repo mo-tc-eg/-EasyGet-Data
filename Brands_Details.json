@@ -124,6 +124,7 @@
         {
           "name_product": "عصير بودرة قمر الدين",
           "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp",
+          "is_new": true
           "price": "60"
         },
         {
