@@ -5,7 +5,7 @@
     "https://i.postimg.cc/4xzsXr9S/jahz-lrmdan-ʿrd.png"
   ],
   "stores": [
-     {
+    {
       "id": "abu_auf",
       "name": "أبوعوف",
       "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
@@ -15,7 +15,7 @@
       "subcategory": "nuts",
       "isActive": true
     },
-       {
+    {
       "id": "abu_auf",
       "name": "أبوعوف",
       "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
@@ -45,7 +45,7 @@
       "subcategory": "mens_clothing",
       "isActive": true
     },
-     {
+    {
       "id": "2",
       "name": "Town team",
       "description": "عبّر عن نفسك بجراءة مع تاون تيم. تسوق أحدث الملابس الرجالي، وتوصيل سريع لباب بيتك.",
@@ -66,40 +66,49 @@
       "isActive": true
     }
   ],
+  "occasions": {
+    "active": true,
+    "items": [
+      { "id": "1", "name": "هدايا رمضان", "img": "images/ramadan1.png", "link": "brand_1" },
+      { "id": "2", "name": "فوانيس", "img": "images/ramadan2.png", "link": "brand_2" },
+      { "id": "3", "name": "ولائم", "img": "images/ramadan3.png", "link": "brand_3" },
+      { "id": "4", "name": "ملابس", "img": "images/ramadan4.png", "link": "brand_4" }
+    ]
+  },
   "ramadanContainer": {
     "show": true,
     "title": "رمضانك_أسهل_معانا",
     "short_title": "بنقترح عليك المنتجات دي👇",
     "products": [
-  {
-    "brand_id": "abu_auf",
-    "name_product_ramadan": "كاجو محمص 140جرام",
-    "price_product_ramadan": "150",
-    "name_product_brand": "من براند أبو عوف",
-    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr-13.webp"
-  },
-  {
-    "brand_id": "abu_auf",
-    "name_product_ramadan": "عصير بودرة مانجو",
-    "price_product_ramadan": "61",
-    "name_product_brand": "من براند أبوعوف",
-    "image_product_ramadan": "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2Fpr_11zon-9.webp&w=640&q=75"
-  },
-  {
-    "brand_id": "abu_auf", 
-    "name_product_ramadan": "عصير بودرة قمر الدين",
-    "price_product_ramadan": "60",
-    "name_product_brand": "من براند أبو عوف",
-    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp"
-  },
-  {
-    "brand_id": "abu_auf",
-    "name_product_ramadan": "بلح القافلة 625جرام",
-    "price_product_ramadan": "80",
-    "name_product_brand": "من براند أبو عوف",
-    "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp"
-  }
-  ],
+      {
+        "brand_id": "abu_auf",
+        "name_product_ramadan": "كاجو محمص 140جرام",
+        "price_product_ramadan": "150",
+        "name_product_brand": "من براند أبو عوف",
+        "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr-13.webp"
+      },
+      {
+        "brand_id": "abu_auf",
+        "name_product_ramadan": "عصير بودرة مانجو",
+        "price_product_ramadan": "61",
+        "name_product_brand": "من براند أبوعوف",
+        "image_product_ramadan": "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2Fpr_11zon-9.webp&w=640&q=75"
+      },
+      {
+        "brand_id": "abu_auf",
+        "name_product_ramadan": "عصير بودرة قمر الدين",
+        "price_product_ramadan": "60",
+        "name_product_brand": "من براند أبو عوف",
+        "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp"
+      },
+      {
+        "brand_id": "abu_auf",
+        "name_product_ramadan": "بلح القافلة 625جرام",
+        "price_product_ramadan": "80",
+        "name_product_brand": "من براند أبو عوف",
+        "image_product_ramadan": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp"
+      }
+    ],
     "startDate": "2026-01-26",
     "endDate": "2026-03-17"
   },
@@ -110,7 +119,7 @@
       "description": "خصم ٢٠٪؜ علي قسم المكتبة بمناسبة الرجوع للدراسة 😉❤️📚",
       "code": "BACK_TO_SCHOOL_20",
       "expiryDate": "2026-02-20",
-        "isActive": true,
+      "isActive": true,
       "isExpired": false
     }
   ]
