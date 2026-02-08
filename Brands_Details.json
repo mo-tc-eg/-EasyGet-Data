@@ -59,7 +59,8 @@
         {
           "name_product": "تيراميسو",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Faa54d767-8871-4ee2-b589-d726eb4785ed%2Foriginal%2F191975_1729386442_9d496a75-26a2-4afd-92d2-d73f9d72a733_640x_auto_none",
-          "price": "110"
+          "price": "110",
+          "is_out_of_stock": true
         },
         {
           "name_product": "دونات كريم برولي",
