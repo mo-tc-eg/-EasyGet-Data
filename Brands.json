@@ -5,16 +5,6 @@
     "https://i.postimg.cc/4xzsXr9S/jahz-lrmdan-ʿrd.png"
   ],
   "stores": [
-    {
-      "id": "abu_auf",
-      "name": "أبوعوف",
-      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
-      "rating": 4.6,
-      "category": "أكل",
-      "subcategory": "nuts",
-      "isActive": true
-    },
      {
       "id": "loai_perfumes",
       "name": "Loai Perfumes",
@@ -33,6 +23,16 @@
       "rating": 4.4,
       "category": "أكل",
       "subcategory": "sweets",
+      "isActive": true
+    },
+     {
+      "id": "abu_auf",
+      "name": "أبوعوف",
+      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
+      "rating": 4.6,
+      "category": "أكل",
+      "subcategory": "nuts",
       "isActive": true
     },
     {
