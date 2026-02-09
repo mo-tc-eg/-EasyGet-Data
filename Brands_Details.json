@@ -198,45 +198,6 @@
           "old_price": "106"
         }
       ]
-    },
-
-    "2": {
-      "name": "Town team",
-      "orderUrl": "https://townteam.com",
-      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
-      "description": "تاون تيم.. عنوان الأناقة الكاجوال في مصر. اكتشف أحدث صيحات الموضة الرجالية وملابس الأطفال بجودة عالمية وتصاميم عصرية تناسب كل يوم. تسوق الآن واحصل على إطلالة تعبر عن شخصيتك",
-      "rating": 4.7,
-      "deliveryTime": "2-5 أيام",
-      "deliveryFee": "ج.م 90",
-      "minPrice": 878,
-      "maxPrice": 7360,
-      "deliveryAreas": "جميع المحافظات",
-      "paymentMethods": ["الدفع عند الاستلام", "المحافظ إلكترونية", "بطاقات الدفع"],
-      "socialMedia": {
-        "instagram": "https://www.instagram.com/townteam",
-        "facebook": "https://www.facebook.com/townteam",
-        "tiktok": "https://www.tiktok.com/@townteam98",
-        "website": "https://townteam.com/",
-        "phone": "16579"
-      },
-      "products": [
-        "https://townteam.com/cdn/shop/files/kids50desk_1770x.png?v=1767773074",
-        "https://townteam.com/cdn/shop/files/jacket50desk.png?v=1767773076&width=1370",
-        "https://townteam.com/cdn/shop/files/Overshirt50desk.png?v=1767773064&width=1370",
-        "https://townteam.com/cdn/shop/files/1101maindesk.png?v=1768135173&width=1370"
-      ],
-      "productsList": [
-        {
-          "name_product": "JAC25WWBG28030TM1",
-          "imageUrl": "https://townteam.com/cdn/shop/files/JAC25WWBG28030TM1-Black.jpg?v=1756322879",
-          "price": "1999"
-        },
-        {
-          "name_product": "OSH26WCXR19181TB1",
-          "imageUrl": "https://townteam.com/cdn/shop/files/OSH26WCXR19181TB1-GRY-OFF.jpg?v=1766480100",
-          "price": "1949"
-        }
-      ]
     }
   }
 }
