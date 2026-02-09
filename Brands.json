@@ -15,17 +15,17 @@
       "subcategory": "nuts",
       "isActive": true
     },
-    {
-      "id": "abu_auf",
-      "name": "أبوعوف",
-      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
-      "rating": 4.6,
-      "category": "أكل",
-      "subcategory": "drinks",
+     {
+      "id": "loai_perfumes",
+      "name": "Loai Perfumes",
+      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
+      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
+      "rating": 3.7,
+      "category": "العناية",
+      "subcategory": "perfumes",
       "isActive": true
     },
-    {
+     {
       "id": "fatis",
       "name": "Fati's",
       "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
@@ -36,13 +36,13 @@
       "isActive": true
     },
     {
-      "id": "loai_perfumes",
-      "name": "Loai Perfumes",
-      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
-      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
-      "rating": 3.7,
-      "category": "العناية",
-      "subcategory": "perfumes",
+      "id": "abu_auf",
+      "name": "أبوعوف",
+      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
+      "rating": 4.6,
+      "category": "أكل",
+      "subcategory": "drinks",
       "isActive": true
     }
   ],
