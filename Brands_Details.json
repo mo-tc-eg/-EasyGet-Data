@@ -1,4 +1,3 @@
-
 {
   "brands": {
     "fatis": {
@@ -93,23 +92,65 @@
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fb40007ce-d635-4bd5-a6b7-44d18586ce21%2Foriginal%2F191975_1715880148_9c0ef2ac-5a3a-4f05-9798-f4050879f331_640x_auto_none",
           "price": "75"
         },
-         {
+        {
           "name_product": "بطاقة ملاحظات",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fdad50dad-f7aa-4985-86fa-c17bc97844b9%2Foriginal%2F191975_1729386260_9d49695f-43c4-4f59-a82c-32fe8d19d312_640x_auto_none",
           "price": "35"
         },
-           {
+        {
           "name_product": "بطاقة تهنئة بعيد الميلاد",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fb15bdda4-eaf3-462b-a2b1-bc90ba2ea744%2Foriginal%2F191975_1729386292_9d496991-33dc-4030-96ff-a3f6277fdb4e_640x_auto_none",
           "price": "35"
         },
-           {
+        {
           "name_product": "بطاقة تهنئة",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Ffae45c6e-b67a-41e0-8662-147eac347191%2Foriginal%2F191975_1729386227_9d49692c-bc2a-4be1-873e-4dd63dcb5c8d_640x_auto_none",
           "price": "35"
         }
       ]
     },
+
+    "loai_perfumes": {
+      "name": "Loai Perfumes",
+      "orderUrl": "https://cmjr90jfz05jx01lhbbnn6sto.wuiltstore.com/ar",
+      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
+      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
+      "rating": 3.7,
+      "deliveryTime": "9-7 أيام",
+      "deliveryFee": "70",
+      "minPrice": 450,
+      "maxPrice": 700,
+      "deliveryAreas": "القاهرة الكبري والجيزة والقليبوية والشرقية والدقهلية والمنوفية",
+      "paymentMethods": ["الدفع عند الاستلام", "فودافون كاش"],
+      "socialMedia": {
+        "tiktok": "https://www.tiktok.com/@loai.perfumes?is_from_webapp=1&sender_device=pc",
+        "phone": "201011580685"
+      },
+      "products": [
+        "https://assets.wuiltstore.com/cmjx9bmbf0c6401fu29chd7sb__D8_A7_D9_85_D8_A8_D8_B1__D9_83_D8_B1_D8_A7_D9_88_D9_86.JPG",
+        "https://assets.wuiltstore.com/cmjxbyrti0cb501fu07i53oxt__D8_A8_D9_84_D8_A7_D9_83__D8_AF_D9_8A_D8_AA_D9_8A_D9_88_D9_86_D9_8A_D8_B4_D9_86.jpeg",
+        "src=\"https://assets.wuiltstore.com/cmjx9ne900c7g01fuazb0cpr9__D8_AC_D9_88_D9_84_D8_AF_D9_86__D9_87_D8_A7_D9_81_D8_A7_D9_86_D8_A7.JPG\""
+      ],
+      "productsList": [
+        {
+          "name_product": "AMBER CROWN-Inspired By Oajan – Parfums de Marly",
+          "imageUrl": "https://assets.wuiltstore.com/cmjx9bmbf0c6401fu29chd7sb__D8_A7_D9_85_D8_A8_D8_B1__D9_83_D8_B1_D8_A7_D9_88_D9_86.JPG",
+          "price": "450"
+        },
+        {
+          "name_product": "BLACK DETONATION-Inspired By Spicebomb Extreme",
+          "imageUrl": "https://assets.wuiltstore.com/cmjxbyrti0cb501fu07i53oxt__D8_A8_D9_84_D8_A7_D9_83__D8_AF_D9_8A_D8_AA_D9_8A_D9_88_D9_86_D9_8A_D8_B4_D9_86.jpeg",
+          "price": "450",
+          "is_new": true
+        },
+        {
+          "name_product": "GOLDEN HAVANA-Inspired By Naxos – Xerjoff",
+          "imageUrl": "src=\"https://assets.wuiltstore.com/cmjx9ne900c7g01fuazb0cpr9__D8_AC_D9_88_D9_84_D8_AF_D9_86__D9_87_D8_A7_D9_81_D8_A7_D9_86_D8_A7.JPG\"",
+          "price": "700"
+        }
+      ]
+    },
+
     "abu_auf": {
       "name": "أبوعوف",
       "orderUrl": "https://www.abuauf.com/?srsltid=AfmBOop45ezwUkMrbGuLZ3O5HJHGSUplbwIRy4oDZSvKDGPaQq5xicGX",
@@ -158,6 +199,7 @@
         }
       ]
     },
+
     "2": {
       "name": "Town team",
       "orderUrl": "https://townteam.com",
