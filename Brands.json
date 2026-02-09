@@ -36,23 +36,13 @@
       "isActive": true
     },
     {
-      "id": "2",
-      "name": "Town team",
-      "description": "عبّر عن نفسك بجراءة مع تاون تيم. تسوق أحدث الملابس الرجالي، وتوصيل سريع لباب بيتك.",
-      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
-      "rating": 4.7,
-      "category": "ملابس",
-      "subcategory": "mens_clothing",
-      "isActive": true
-    },
-    {
-      "id": "2",
-      "name": "Town team",
-      "description": "عبّر عن نفسك بجراءة مع تاون تيم. تسوق أحدث الملابس الرجالي، وتوصيل سريع لباب بيتك.",
-      "imageUrl": "https://townteam.com/cdn/shop/files/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.png?v=1624198271",
-      "rating": 4.7,
-      "category": "ملابس",
-      "subcategory": "kids_clothing",
+      "id": "loai_perfumes",
+      "name": "Loai Perfumes",
+      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
+      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
+      "rating": 3.7,
+      "category": "العناية",
+      "subcategory": "perfumes",
       "isActive": true
     }
   ],
