@@ -9,7 +9,7 @@
       "rating": 4.4,
       "deliveryTime": "7-5 ساعات",
       "deliveryFee": "ج.م 65",
-      "minPrice": 50,
+      "minPrice": 35,
       "maxPrice": 895,
       "deliveryAreas": "جميع المحفظات",
       "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
@@ -92,6 +92,21 @@
           "name_product": "دونات كلاسيكية مزججة",
           "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fb40007ce-d635-4bd5-a6b7-44d18586ce21%2Foriginal%2F191975_1715880148_9c0ef2ac-5a3a-4f05-9798-f4050879f331_640x_auto_none",
           "price": "75"
+        },
+         {
+          "name_product": "بطاقة ملاحظات",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fdad50dad-f7aa-4985-86fa-c17bc97844b9%2Foriginal%2F191975_1729386260_9d49695f-43c4-4f59-a82c-32fe8d19d312_640x_auto_none",
+          "price": "35"
+        },
+           {
+          "name_product": "بطاقة تهنئة بعيد الميلاد",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fb15bdda4-eaf3-462b-a2b1-bc90ba2ea744%2Foriginal%2F191975_1729386292_9d496991-33dc-4030-96ff-a3f6277fdb4e_640x_auto_none",
+          "price": "35"
+        },
+           {
+          "name_product": "بطاقة تهنئة",
+          "imageUrl": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Ffae45c6e-b67a-41e0-8662-147eac347191%2Foriginal%2F191975_1729386227_9d49692c-bc2a-4be1-873e-4dd63dcb5c8d_640x_auto_none",
+          "price": "35"
         }
       ]
     },
