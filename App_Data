@@ -1,0 +1,10 @@
+{
+  "isEnabled": true,
+  "content": {
+    "title": "متأسفين علي الإزعاج!",
+    "message": "بنعمل صيانة دلوقتي، و هنرجع قريب شكراً لتفهمك!",
+    "expectedTimeLabel": "متوقع وقت الرجوع:",
+    "expectedTime": "ساعة واحدة!",
+    "imagePath": "assets/images/maintenance.png"
+  }
+}
