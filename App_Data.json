@@ -1,10 +1,10 @@
 {
   "maintenance": {
-    "isActive": false,
+    "isActive": true,
     "title": "متأسفين على الإزعاج!",
     "description": "بنعمل صيانة دلوقتي، و هنرجع قريب شكراً لتفهمك!",
     "expectedTime": "متوقع وقت الرجوع:",
-    "timeText": "أقل من ساعتين",
+    "timeText": "أقل من ساعتين🟢",
     "imagePath": "https://i.postimg.cc/D0d4ZQD7/ayqwn-althdyth.png"
   }
 }
