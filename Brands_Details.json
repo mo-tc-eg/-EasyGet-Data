@@ -192,54 +192,6 @@
           "price": "450"
         }
       ]
-    },
-    "abu_auf": {
-      "name": "أبوعوف",
-      "orderUrl": "https://www.abuauf.com/?srsltid=AfmBOop45ezwUkMrbGuLZ3O5HJHGSUplbwIRy4oDZSvKDGPaQq5xicGX",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOmgz9xosH13Os_hUcD5MjAhmOWt7qiAjivA&s",
-      "description": "أبو عوف علامة مصرية رائدة متخصصة في القهوة والمنتجات الطبيعية، بتقدّم تشكيلة مميزة من القهوة والمكسرات والتمور والمشروبات بجودة عالية وطعم أصيل.",
-      "rating": 4.6,
-      "deliveryTime": "2-4 ساعات",
-      "deliveryFee": "ج.م 65",
-      "minPrice": 45,
-      "maxPrice": 1280,
-      "deliveryAreas": "جميع المحافظات",
-      "paymentMethods": ["الدفع عند الاستلام", "بطاقات الدفع"],
-      "socialMedia": {
-        "instagram": "https://instagram.com/fatis.donats",
-        "facebook": "https://facebook.com/fatis.donats",
-        "tiktok": "https://tiktok.com/@fatis.donats",
-        "whatsapp": "https://wa.me/201234567891"
-      },
-      "products": [
-        "https://backend.abuauf.com/wp-content/uploads/2026/01/taha1mob.webp",
-        "https://backend.abuauf.com/wp-content/uploads/2026/01/taha2.webp",
-        "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2F3.webp&w=3840&q=75"
-      ],
-      "productsList": [
-        {
-          "name_product": "كاجو محمص 140جرام",
-          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr-13.webp",
-          "price": "150"
-        },
-        {
-          "name_product": "عصير بودرة مانجو",
-          "imageUrl": "https://www.abuauf.com/_next/image?url=https%3A%2F%2Fbackend.abuauf.com%2Fwp-content%2Fuploads%2F2026%2F01%2Fpr_11zon-9.webp&w=640&q=75",
-          "price": "61"
-        },
-        {
-          "name_product": "عصير بودرة قمر الدين",
-          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-1-1.webp",
-          "price": "60",
-          "is_new": true
-        },
-        {
-          "name_product": "بلح القافلة 625جرام",
-          "imageUrl": "https://backend.abuauf.com/wp-content/uploads/2026/01/pr_11zon-5.webp",
-          "price": "80",
-          "old_price": "106"
-        }
-      ]
     }
   }
 }
