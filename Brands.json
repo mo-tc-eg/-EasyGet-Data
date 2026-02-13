@@ -5,7 +5,7 @@
     "https://i.postimg.cc/4xzsXr9S/jahz-lrmdan-ʿrd.png"
   ],
   "stores": [
-     {
+    {
       "id": "fatis",
       "name": "Fati's",
       "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
@@ -15,7 +15,7 @@
       "subcategory": "sweets",
       "isActive": true
     },
-     {
+    {
       "id": "special_food",
       "name": "special food",
       "description": "متجرنا متخصص في تصنيع البرجر فقط… بنركز على حاجة واحدة بس، ونعملها بأعلى جودة ممكنة 👌",
@@ -25,7 +25,7 @@
       "subcategory": "fast_food",
       "isActive": true
     },
-     {
+    {
       "id": "loai_perfumes",
       "name": "Loai Perfumes",
       "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
@@ -42,41 +42,42 @@
     "short_title": "بنقترح عليك المنتجات دي👇",
     "products": [
       [
-  {
-    "brand_id": "fatis",
-    "name_product_ramadan": "دونات شوكولاتة",
-    "price_product_ramadan": "75",
-    "name_product_brand": "من براند فاتس",
-    "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none"
-  },
-  {
-    "brand_id": "fatis",
-    "name_product_ramadan": "دونات فانليا بومب",
-    "price_product_ramadan": "110",
-    "name_product_brand": "من براند فاتس",
-    "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fe2a77618-5849-4008-ae9d-55375cf522fd%2Foriginal%2FWhatsApp_Image_2025-07-13_at_08.52.51_f179e55c_640x_auto_none"
-  },
-  {
-    "brand_id": "fatis",
-    "name_product_ramadan": "تيراميسو",
-    "price_product_ramadan": "110",
-    "name_product_brand": "من براند فاتس",
-    "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Faa54d767-8871-4ee2-b589-d726eb4785ed%2Foriginal%2F191975_1729386442_9d496a75-26a2-4afd-92d2-d73f9d72a733_640x_auto_none"
-  },
-  {
-    "brand_id": "special_food",
-    "name_product_ramadan": "برجر مكس شيدر أمريكي + موتزاريلا 140 جرام للقطعه الكيلو {7 قطع}",
-    "price_product_ramadan": "200",
-    "name_product_brand": "من براند سبيشال فود",
-    "image_product_ramadan": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at161953012063.webp&w=384&q=50"
-  },
-  {
-    "brand_id": "special_food",
-    "name_product_ramadan": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
-    "price_product_ramadan": "210",
-    "name_product_brand": "من براند سبيشال فود",
-    "image_product_ramadan": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50"
-  }
+        {
+          "brand_id": "fatis",
+          "name_product_ramadan": "دونات شوكولاتة",
+          "price_product_ramadan": "75",
+          "name_product_brand": "من براند فاتس",
+          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none"
+        },
+        {
+          "brand_id": "fatis",
+          "name_product_ramadan": "دونات فانليا بومب",
+          "price_product_ramadan": "110",
+          "name_product_brand": "من براند فاتس",
+          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fe2a77618-5849-4008-ae9d-55375cf522fd%2Foriginal%2FWhatsApp_Image_2025-07-13_at_08.52.51_f179e55c_640x_auto_none"
+        },
+        {
+          "brand_id": "fatis",
+          "name_product_ramadan": "تيراميسو",
+          "price_product_ramadan": "110",
+          "name_product_brand": "من براند فاتس",
+          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Faa54d767-8871-4ee2-b589-d726eb4785ed%2Foriginal%2F191975_1729386442_9d496a75-26a2-4afd-92d2-d73f9d72a733_640x_auto_none"
+        },
+        {
+          "brand_id": "special_food",
+          "name_product_ramadan": "برجر مكس شيدر أمريكي + موتزاريلا 140 جرام للقطعه الكيلو {7 قطع}",
+          "price_product_ramadan": "200",
+          "name_product_brand": "من براند سبيشال فود",
+          "image_product_ramadan": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at161953012063.webp&w=384&q=50"
+        },
+        {
+          "brand_id": "special_food",
+          "name_product_ramadan": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
+          "price_product_ramadan": "210",
+          "name_product_brand": "من براند سبيشال فود",
+          "image_product_ramadan": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50"
+        }
+      ]
     ],
     "startDate": "2026-2-1",
     "endDate": "2026-03-16"
