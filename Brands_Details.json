@@ -117,8 +117,8 @@
       "rating": 3.5,
       "deliveryTime": "يومين",
       "deliveryFee": "50 ج.م",
-      "minPrice": 200,
-      "maxPrice": 250,
+      "minPrice": 10,
+      "maxPrice": 399,
       "deliveryAreas": "القاهرة و الجيزة فقط",
       "paymentMethods": ["الدفع عند الاستلام", "فودافون كاش", "انستاباي"],
       "socialMedia": {
@@ -134,6 +134,41 @@
         "https://portal.elsupplier.com/backend/public/storage/supplierImage/456605869_1237233907468765_2532638255538886622_n955967000.jpg"
       ],
       "productsList": [
+        {
+          "name_product": "عيش ماك سامولينا",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/a39630eb-a5f4-469a-b395-4649113a58ef.webp",
+          "price": "10"
+        },
+        {
+          "name_product": "صوص الكاتشب",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/e6015096-3dda-4ad5-9de1-6ed168a6c8d1.webp",
+          "price": "25"
+        },
+        {
+          "name_product": "صوص باربيكيو",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/37dff385-3eda-47bb-a742-a6b57270bfc6.webp",
+          "price": "30"
+        },
+        {
+          "name_product": "هالبينو"
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/6971a19e-7650-4ff6-b301-46912985616a.webp",
+          "price": "30"
+        },
+        {
+          "name_product": "صوص بيج تيستي",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/7ddc4a00-2045-4fbc-af5b-cda14d634dca.webp",
+          "price": "40"
+        },
+        {
+          "name_product": "صوص سبيشيال",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/bc07f5b3-794f-450e-9327-f1b6b6b3563a.webp",
+          "price": "40"
+        },
+        {
+          "name_product": "خيار مخلل",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/b6570d1b-f24f-43e4-b96c-93176a94bdd3.webp",
+          "price": "25"
+        },
         {
           "name_product": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
           "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50",
