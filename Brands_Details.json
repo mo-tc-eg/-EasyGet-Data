@@ -170,24 +170,31 @@
           "price": "25"
         },
         {
+          "name_product": "بوكس سبيشيال-1",
+          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/043525c5-79eb-44de-a24b-579abfbcac89.webp",
+          "price": "399"
+           "is_new": true
+        },
+        {
           "name_product": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
           "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50",
-          "price": "210"
+          "price": "249"
         },
         {
           "name_product": "برجر مكس شيدر أمريكي + موتزاريلا 140 جرام للقطعه الكيلو {7 قطع}",
           "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at161953012063.webp&w=384&q=50",
-          "price": "200"
+          "price": "249"
         },
         {
           "name_product": "برجر سماش 150 جرام للقطعه الكيلو {7 قطع}",
           "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-11-30at4305067066.jpeg&w=384&q=50",
-          "price": "245"
+          "price": "250",
+           "is_out_of_stock": true
         },
         {
           "name_product": "برجر محشي شيدر أمريكي فقط 140 جرام للقطعه الكيلو {7 قطع}",
           "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16788052273.webp&w=384&q=50",
-          "price": "250"
+          "price": "289"
         }
       ]
     },
