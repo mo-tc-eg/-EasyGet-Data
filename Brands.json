@@ -6,26 +6,16 @@
   ],
   "stores": [
      {
-      "id": "loai_perfumes",
-      "name": "Loai Perfumes",
-      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
-      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
-      "rating": 3.4,
-      "category": "العناية",
-      "subcategory": "perfumes",
-      "isActive": true
-    },
-     {
       "id": "fatis",
       "name": "Fati's",
       "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
       "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
-      "rating": 4.4,
+      "rating": 4.1,
       "category": "أكل",
       "subcategory": "sweets",
       "isActive": true
     },
-    {
+     {
       "id": "special_food",
       "name": "special food",
       "description": "متجرنا متخصص في تصنيع البرجر فقط… بنركز على حاجة واحدة بس، ونعملها بأعلى جودة ممكنة 👌",
@@ -33,6 +23,16 @@
       "rating": 3.5,
       "category": "أكل",
       "subcategory": "fast_food",
+      "isActive": true
+    },
+     {
+      "id": "loai_perfumes",
+      "name": "Loai Perfumes",
+      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
+      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
+      "rating": 3.3,
+      "category": "العناية",
+      "subcategory": "perfumes",
       "isActive": true
     }
   ],
