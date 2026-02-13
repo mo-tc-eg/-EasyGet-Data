@@ -6,7 +6,7 @@
   ],
   "stores": [
      {
-      "id": "loai_perfumes",
+      "id": "loai_perfumes",x
       "name": "Loai Perfumes",
       "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
       "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
