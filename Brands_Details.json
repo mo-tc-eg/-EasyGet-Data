@@ -109,7 +109,53 @@
         }
       ]
     },
-
+    "special_food": {
+      "name": "SPECIAL FOOD",
+      "orderUrl": "https://www.elsupplier.com/shop/special-food/24018",
+      "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2FsupplierImage%2F456605869_1237233907468765_2532638255538886622_n955967000.jpg&w=256&q=50",
+      "description": "متجرنا متخصص في تصنيع البرجر فقط… بنركز على حاجة واحدة بس، ونعملها بأعلى جودة ممكنة 👌",
+      "rating": 3.5,
+      "deliveryTime": "ملعومة غير متوفرة الأن!",
+      "deliveryFee": "ملعومة غير متوفرة الأن!",
+      "minPrice": 200,
+      "maxPrice": 250,
+      "deliveryAreas": "ملعومة غير متوفرة الأن!",
+      "paymentMethods": ["الدفع عند الاستلام", "فودافون كاش", "انستاباي"],
+      "socialMedia": {
+        "whatsapp": "201040685369",
+        "instagram": "https://www.instagram.com/special_foodlll?igsh=NHEyeDl6cW1sc3Bh",
+        "tiktok": "https://www.tiktok.com/@specilfood?_r=1&_t=ZS-93tcG5Ctm7x",
+        "phone": "01040685369",
+        "website": "https://www.elsupplier.com/shop/special-food/24018"
+      },
+      "products": [
+        "https://portal.elsupplier.com/backend/public/storage/products/WhatsAppImage2025-11-30at4305067066.jpeg",
+        "https://portal.elsupplier.com/backend/public/storage/products/WhatsAppImage2025-12-23at16788052273.webp",
+        "https://portal.elsupplier.com/backend/public/storage/supplierImage/456605869_1237233907468765_2532638255538886622_n955967000.jpg"
+      ],
+      "productsList": [
+        {
+          "name_product": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
+          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50",
+          "price": "210"
+        },
+        {
+          "name_product": "برجر مكس شيدر أمريكي + موتزاريلا 140 جرام للقطعه الكيلو {7 قطع}",
+          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at161953012063.webp&w=384&q=50",
+          "price": "200"
+        },
+        {
+          "name_product": "برجر سماش 150 جرام للقطعه الكيلو {7 قطع}",
+          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-11-30at4305067066.jpeg&w=384&q=50",
+          "price": "245"
+        },
+        {
+          "name_product": "برجر محشي شيدر أمريكي فقط 140 جرام للقطعه الكيلو {7 قطع}",
+          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16788052273.webp&w=384&q=50",
+          "price": "250"
+        }
+      ]
+    },
     "loai_perfumes": {
       "name": "Loai Perfumes",
       "orderUrl": "https://cmjr90jfz05jx01lhbbnn6sto.wuiltstore.com/ar/shop",
@@ -129,8 +175,8 @@
         "phone": "01011580685"
       },
       "products": [
-        "https://assets.wuiltstore.com/cmjx6wdyt0c1f01fu18gl9lu1__D8_B5_D9_88_D8_B1_D8_A9__D8_A7_D9_84_D9_88_D8_A7_D8_AC_D9_87_D8_A9.jpeg",
-        "https://assets.wuiltstore.com/cmk05l4wl00ii01fu9kuzelp5__D8_AF_D9_8A_D8_B2_D8_A7_D9_8A_D9_86_D8_B1.webp",
+        "https://assets.wuiltstore.com/cmjx6wdyt0c1f01fu18gl9lu1__D8_B5_D9_88_D8_B1_D8_A9__D8_A7_D9_84_D9_88_D8_A7_D8_JD_D9_87_D8_A9.jpeg",
+        "https://assets.wuiltstore.com/cmk05l4wl00ii01fu9kuzelp5__D8_DA_D9_8A_D8_B2_D9_8A_D9_86_D8_B1.webp",
         "https://assets.wuiltstore.com/cmk05meey00io01fuaoetg1gy__D9_86_D9_8A_D8_B4.webp",
         "https://assets.wuiltstore.com/cmk069h7p00lx01fuawsrhei7_A%3B%3B_PRODUCTS.webp"
       ],
@@ -140,70 +186,13 @@
           "imageUrl": "https://assets.wuiltstore.com/cmjx9bmbf0c6401fu29chd7sb__D8_A7_D9_85_D8_A8_D8_B1__D9_83_D8_B1_D8_A7_D9_88_D9_86.JPG",
           "price": "450"
         },
-         {
+        {
           "name_product": "NOCTIS ELIXIR-Inspired By Le Male Elixir Absolu",
           "imageUrl": "https://assets.wuiltstore.com/cmjx8ldyf0c4w01fudj313yja__D9_86_D9_88_D9_83_D8_AA_D8_B3__D8_A7_D9_84_D9_83_D8_B3_D9_8A_D8_B1.JPG",
           "price": "450"
-        },
-         {
-          "name_product": "BLACK DETONATION-Inspired By Spicebomb Extreme",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxbyrti0cb501fu07i53oxt__D8_A8_D9_84_D8_A7_D9_83__D8_AF_D9_8A_D8_AA_D9_8A_D9_88_D9_86_D9_8A_D8_B4_D9_86.jpeg",
-          "price": "450",
-          "is_new": true
-        },
-          {
-          "name_product": "PACTO-Inspired By Sronger With you Intinsly",
-          "imageUrl": "https://assets.wuiltstore.com/cmjx8dvuc0c4j01fudxkigscw__D8_A8_D8_A7_D9_83_D8_AA_D9_88.jpeg",
-          "price": "450"
-        },
-         {
-          "name_product": "TARGET-Inspired By Azzaro The Most Wanted",
-          "imageUrl": "https://assets.wuiltstore.com/cmjx9iu710c6z01fu3bli8p6o__D8_AA_D8_A7_D8_B1_D8_AC_D8_AA.JPG",
-          "price": "450"
-        },
-          {
-          "name_product": "VELVET CODE- Inspired By Dior Homme Intense",
-          "imageUrl": "https://assets.wuiltstore.com/cmjx8x6jq0c5f01fue9dx8xct__D9_81_D9_8A_D9_84_D9_81_D8_AA__D9_83_D9_88_D8_AF.JPG",
-          "price": "450"
-        },
-        {
-          "name_product": "REBELLION-Inspired By Althaïr – Parfums de Marly",
-          "imageUrl": "https://assets.wuiltstore.com/cmk06888600li01fu2574afl7__D8_B1_D9_8A_D8_A8_D9_8A_D9_84_D9_8A_D9_88_D9_86.webp",
-          "price": "450"
-        },
-        {
-          "name_product": "VANILLA DUST-Inspired By Vanilla Powder",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxb9ub50c9s01fu01sacckm__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7__D8_AF_D8_A7_D8_B3_D8_AA.jpeg",
-          "price": "700"
-        },
-        {
-          "name_product": "ROSE NOIR ELITE-Inspired By Rosendo Mateu Nº5",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxcpdc90ccr01fubmhl1a4v__D8_B1_D9_88_D8_B2__D9_86_D9_88_D9_8A_D8_B1__D8_A7_D9_8A_D9_84_D9_8A_D8_AA.jpeg",
-          "price": "700"
-        },
-        {
-          "name_product": "MILKY VANILLA-Inspired By Bianco Latte",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxa2kg20c8801fuhbezabi4__D9_85_D9_8A_D9_84_D9_83_D9_89__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7.png",
-          "price": "700"
-        },
-        {
-          "name_product": "HEAVEN’S RESERVE-Inspired By Angel’s Share Paradis",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxcsyhl0cd601fu6bjr0yyy__D9_87_D9_8A_D9_81_D9_86_D8_B2__D8_B1_D9_8A_D8_B2_D9_8A_D8_B1_D9_81.jpeg",
-          "price": "700"
-        },
-        {
-          "name_product": "ETERNAL VANILLA-Inspired By Ani – Nishane",
-          "imageUrl": "https://assets.wuiltstore.com/cmjxcwzd20cde01fu2vy87rto__D8_A7_D9_8A_D8_AA_D9_8A_D8_B1_D9_86_D8_A7_D9_84__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7.jpeg",
-          "price": "700"
-        },
-        {
-          "name_product": "GOLDEN HAVANA-Inspired By Naxos – Xerjoff",
-          "imageUrl": "https://assets.wuiltstore.com/cmjx9ne900c7g01fuazb0cpr9__D8_AC_D9_88_D9_84_D8_AF_D9_86__D9_87_D8_A7_D9_81_D8_A7_D9_86_D8_A7.JPG",
-          "price": "700"
         }
       ]
     },
-
     "abu_auf": {
       "name": "أبوعوف",
       "orderUrl": "https://www.abuauf.com/?srsltid=AfmBOop45ezwUkMrbGuLZ3O5HJHGSUplbwIRy4oDZSvKDGPaQq5xicGX",
