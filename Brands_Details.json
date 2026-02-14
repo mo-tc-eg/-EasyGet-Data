@@ -122,7 +122,7 @@
       "deliveryAreas": "القاهرة و الجيزة فقط",
       "paymentMethods": ["الدفع عند الاستلام", "فودافون كاش", "انستاباي"],
       "socialMedia": {
-        "whatsapp": "https://wa.me/201040685369?text=%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D9%83%D9%8F%D9%86%D8%AA%20%D8%B4%D9%88%D9%81%D8%AA%20%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%86%D8%AF%20%D8%AF%D9%87%20%D8%B9%D9%84%D9%89%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20EasyGet%20%D9%88%20%D8%B9%D8%AC%D8%A8%D9%86%D9%8A%20%D9%88%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B7%D9%84%D8%A8.",
+        "whatsapp": "https://wa.me/01040685369?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و",
         "instagram": "https://www.instagram.com/special_foodlll?igsh=NHEyeDl6cW1sc3Bh",
         "tiktok": "https://www.tiktok.com/@specilfood?_r=1&_t=ZS-93tcG5Ctm7x",
         "phone": "01040685369",
@@ -153,48 +153,6 @@
           "name_product": "هالبينو",
           "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/6971a19e-7650-4ff6-b301-46912985616a.webp",
           "price": "30"
-        },
-        {
-          "name_product": "صوص بيج تيستي",
-          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/7ddc4a00-2045-4fbc-af5b-cda14d634dca.webp",
-          "price": "40"
-        },
-        {
-          "name_product": "صوص سبيشيال",
-          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/bc07f5b3-794f-450e-9327-f1b6b6b3563a.webp",
-          "price": "40"
-        },
-        {
-          "name_product": "خيار مخلل",
-          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/b6570d1b-f24f-43e4-b96c-93176a94bdd3.webp",
-          "price": "25"
-        },
-        {
-          "name_product": "بوكس سبيشيال-1",
-          "imageUrl": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/043525c5-79eb-44de-a24b-579abfbcac89.webp",
-          "price": "399",
-          "is_new": true
-        },
-        {
-          "name_product": "برجر سادة وزن 140 جرام للقطعه الكيلو-{7 قطع}",
-          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16287564428.webp&w=384&q=50",
-          "price": "249"
-        },
-        {
-          "name_product": "برجر مكس شيدر أمريكي + موتزاريلا 140 جرام للقطعه الكيلو {7 قطع}",
-          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at161953012063.webp&w=384&q=50",
-          "price": "249"
-        },
-        {
-          "name_product": "برجر سماش 150 جرام للقطعه الكيلو {7 قطع}",
-          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-11-30at4305067066.jpeg&w=384&q=50",
-          "price": "250",
-          "is_out_of_stock": true
-        },
-        {
-          "name_product": "برجر محشي شيدر أمريكي فقط 140 جرام للقطعه الكيلو {7 قطع}",
-          "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2Fproducts%2FWhatsAppImage2025-12-23at16788052273.webp&w=384&q=50",
-          "price": "289"
         }
       ]
     },
@@ -213,16 +171,109 @@
       "socialMedia": {
         "instagram": "https://www.instagram.com/loaiperfumes?igsh=aGh0ZWhmYTZ2ejJz",
         "tiktok": "https://www.tiktok.com/@loai.perfumes?is_from_webapp=1&sender_device=pc",
-        "whatsapp": "https://wa.me/01011580685?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%B4%D9%88%D9%81%D8%AA%20%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%86%D8%AF%20%D8%A8%D8%AA%D8%A7%D8%B9%D9%83%20%D8%B9%D9%84%D9%89%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20EasyGet%20%D9%88%D8%B9%D8%AC%D8%A8%D9%86%D9%8A%20%D9%88%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B9%D9%85%D9%84%20%D8%A3%D9%88%D8%B1%D8%AF",
+        "whatsapp": "https://wa.me/01011580685?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و",
         "phone": "01011580685"
       },
-      "products": [
-        "https://assets.wuiltstore.com/cmk05meey00io01fuaoetg1gy__D9_86_D9_8A_D8_B4.webp",
-        "https://assets.wuiltstore.com/cmk069h7p00lx01fuawsrhei7_A%3B%3B_PRODUCTS.webp"
+      "products": [],
+      "productsList": []
+    },
+    "bella": {
+      "name": "Bella",
+      "orderUrl": "https://bella-eg.com/?utm_source=ig&utm_medium=sochttps://bella-eg.com/",
+      "imageUrl": "https://bella-eg.com/",
+      "description": "ملابس نسائية مريحة وأنيقة",
+      "rating": 0,
+      "deliveryTime": "7-3 ايام",
+      "deliveryFee": "60 ج.م",
+      "minPrice": 200,
+      "maxPrice": 750,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": [
+        "الدفع عند الاستلام",
+        "بطاقات الدفع"
       ],
-      "productsList": [
-     { "name_product": "AMBER CROWN-Inspired By Oajan – Parfums de Marly", "imageUrl": "https://assets.wuiltstore.com/cmjx9bmbf0c6401fu29chd7sb__D8_A7_D9_85_D8_A8_D8_B1__D9_83_D8_B1_D8_A7_D9_88_D9_86.JPG", "price": "450" }, { "name_product": "NOCTIS ELIXIR-Inspired By Le Male Elixir Absolu", "imageUrl": "https://assets.wuiltstore.com/cmjx8ldyf0c4w01fudj313yja__D9_86_D9_88_D9_83_D8_AA_D8_B3__D8_A7_D9_84_D9_83_D8_B3_D9_8A_D8_B1.JPG", "price": "450" }, { "name_product": "BLACK DETONATION-Inspired By Spicebomb Extreme", "imageUrl": "https://assets.wuiltstore.com/cmjxbyrti0cb501fu07i53oxt__D8_A8_D9_84_D8_A7_D9_83__D8_AF_D9_8A_D8_AA_D9_8A_D9_88_D9_86_D9_8A_D8_B4_D9_86.jpeg", "price": "450", "is_new": true }, { "name_product": "PACTO-Inspired By Sronger With you Intinsly", "imageUrl": "https://assets.wuiltstore.com/cmjx8dvuc0c4j01fudxkigscw__D8_A8_D8_A7_D9_83_D8_AA_D9_88.jpeg", "price": "450" }, { "name_product": "TARGET-Inspired By Azzaro The Most Wanted", "imageUrl": "https://assets.wuiltstore.com/cmjx9iu710c6z01fu3bli8p6o__D8_AA_D8_A7_D8_B1_D8_AC_D8_AA.JPG", "price": "450" }, { "name_product": "VELVET CODE- Inspired By Dior Homme Intense", "imageUrl": "https://assets.wuiltstore.com/cmjx8x6jq0c5f01fue9dx8xct__D9_81_D9_8A_D9_84_D9_81_D8_AA__D9_83_D9_88_D8_AF.JPG", "price": "450" }, { "name_product": "REBELLION-Inspired By Althaïr – Parfums de Marly", "imageUrl": "https://assets.wuiltstore.com/cmk06888600li01fu2574afl7__D8_B1_D9_8A_D8_A8_D9_8A_D9_84_D9_8A_D9_88_D9_86.webp", "price": "450" }, { "name_product": "VANILLA DUST-Inspired By Vanilla Powder", "imageUrl": "https://assets.wuiltstore.com/cmjxb9ub50c9s01fu01sacckm__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7__D8_AF_D8_A7_D8_B3_D8_AA.jpeg", "price": "700" }, { "name_product": "ROSE NOIR ELITE-Inspired By Rosendo Mateu Nº5", "imageUrl": "https://assets.wuiltstore.com/cmjxcpdc90ccr01fubmhl1a4v__D8_B1_D9_88_D8_B2__D9_86_D9_88_D9_8A_D8_B1__D8_A7_D9_8A_D9_84_D9_8A_D8_AA.jpeg", "price": "700" }, { "name_product": "MILKY VANILLA-Inspired By Bianco Latte", "imageUrl": "https://assets.wuiltstore.com/cmjxa2kg20c8801fuhbezabi4__D9_85_D9_8A_D9_84_D9_83_D9_89__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7.png", "price": "700" }, { "name_product": "HEAVEN’S RESERVE-Inspired By Angel’s Share Paradis", "imageUrl": "https://assets.wuiltstore.com/cmjxcsyhl0cd601fu6bjr0yyy__D9_87_D9_8A_D9_81_D9_86_D8_B2__D8_B1_D9_8A_D8_B2_D9_8A_D8_B1_D9_81.jpeg", "price": "700" }, { "name_product": "ETERNAL VANILLA-Inspired By Ani – Nishane", "imageUrl": "https://assets.wuiltstore.com/cmjxcwzd20cde01fu2vy87rto__D8_A7_D9_8A_D8_AA_D9_8A_D8_B1_D9_86_D8_A7_D9_84__D9_81_D8_A7_D9_86_D9_8A_D9_84_D8_A7.jpeg", "price": "700" }, { "name_product": "GOLDEN HAVANA-Inspired By Naxos – Xerjoff", "imageUrl": "https://assets.wuiltstore.com/cmjx9ne900c7g01fuazb0cpr9__D8_AC_D9_88_D9_84_D8_AF_D9_86__D9_87_D8_A7_D9_81_D8_A7_D9_86_D8_A7.JPG", "price": "700" }
-      ]
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/bella.hoodies?igsh=bTdwZzBvYXQyZXQ0",
+        "facebook": "https://www.facebook.com/share/1AKCzppfL7/",
+        "website": "https://bella-eg.com/?utm_source=ig&utm_medium=sochttps://bella-eg.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAP9lZ9leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaeN1gwuwr4KkrogZiCChiv-OMCo34d_pJ6YY-QJooUy-Ch_Br8StUCGiRV55Q_aem_7jvt5KvAUirVfpwgwOhO2Q",
+        "whatsapp": "https://wa.me/01000000000?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و"
+      },
+      "products": [],
+      "productsList": []
+    },
+    "soliman_abaya": {
+      "name": "Soliman Abaya",
+      "orderUrl": "https://solimanabaya.easy-orders.net/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAP9f2dleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAae_0soaGX0lPMJYR1b88x3Q1fnweoD3LZj-gq_DJ58xLPmL_OxuyZcop09GTg_aem_zccJ-RBPDi_xKOqcOtP0gA",
+      "imageUrl": "https://solimanabaya.easy-orders.net/",
+      "description": "إسدالات و عبايات إسلامية سوداء",
+      "rating": 0,
+      "deliveryTime": "7-3 ايام",
+      "deliveryFee": "80",
+      "minPrice": 1200,
+      "maxPrice": 2200,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": [
+        "الدفع عند الاستلام"
+      ],
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/soliman_abaya?igsh=MWFwazltc2lyMjRhaQ==",
+        "facebook": "https://www.facebook.com/share/17R9qxK66W/",
+        "website": "https://solimanabaya.easy-orders.net/checkout",
+        "phone": "01028433140",
+        "whatsapp": "https://wa.me/01028433140?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و"
+      },
+      "products": [],
+      "productsList": []
+    },
+    "adam_store": {
+      "name": "Adam Store",
+      "orderUrl": "https://adamstore.co/",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh1ECngPE2LYc4UuQRglh6m4jGtdIMfz13xPbjWyTICA&s=10",
+      "description": "ملابس بيت مختارة بعناية تناسب احتياجك،لانجري جذاب ومريح",
+      "rating": 0,
+      "deliveryTime": "7-3 ايام",
+      "deliveryFee": "55 ج.م",
+      "minPrice": 140,
+      "maxPrice": 1095,
+      "deliveryAreas": "جميع المحافظات",
+      "paymentMethods": [
+        "الدفع عند الاستلام",
+        "بطاقات الدفع"
+      ],
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/adam.stores?igsh=MWx5cjU0ZHRxa243bw==",
+        "facebook": "https://www.facebook.com/share/182jbXCXq5/",
+        "website": "https://adamstore.co/",
+        "phone": "01100887774",
+        "whatsapp": "https://wa.me/01100887774?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و"
+      },
+      "products": [],
+      "productsList": []
+    },
+    "mahshi_hub": {
+      "name": "Mahshi Hub",
+      "orderUrl": "https://mahshihub.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGniPYFxlOnPHO676_53_zwU6o7ix1SMilWxKHE_9vW1hWYBiELXf9wCUlJ22E_aem_rEtjK_0uapb2uw8Z4hquEQ",
+      "imageUrl": "https://mahshihub.com/image/cache/catalog/footer/logo-retina-1024x1024.webp",
+      "description": "اكل طازة بطعم بيتي فلاحي بأيدي شيفات متخصصة جاهز علي التسوية",
+      "rating": 0,
+      "deliveryTime": "60-30 دقيقة",
+      "deliveryFee": "45 ج.م",
+      "minPrice": 35,
+      "maxPrice": 570,
+      "deliveryAreas": "القاهرة",
+      "paymentMethods": [
+        "الدفع عند الاستلام",
+        "بطاقات الدفع"
+      ],
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/mahshihub?igsh=c2JleDdtam90dzNt",
+        "facebook": "https://www.facebook.com/share/188Sf19GR5/",
+        "website": "https://mahshihub.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGniPYFxlOnPHO676_53_zwU6o7ix1SMilWxKHE_9vW1hWYBiELXf9wCUlJ22E_aem_rEtjK_0uapb2uw8Z4hquEQ",
+        "phone": "01122668888",
+        "whatsapp": "https://wa.me/01122668888?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و"
+      },
+      "products": [],
+      "productsList": []
     }
   }
 }
