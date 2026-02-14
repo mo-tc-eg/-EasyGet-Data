@@ -1,6 +1,6 @@
 {
   "maintenance": {
-    "isActive": true,
+    "isActive": false,
     "title": "متأسفين على الإزعاج!",
     "description": "بنعمل صيانة دلوقتي، و هنرجع قريب شكراً لتفهمك!",
     "expectedTime": "متوقع وقت الرجوع:",
