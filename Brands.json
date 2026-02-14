@@ -30,9 +30,49 @@
       "name": "Loai Perfumes",
       "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
       "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
-      "rating": 3.3,
+      "rating": 3.4,
       "category": "العناية",
       "subcategory": "perfumes",
+      "isActive": true
+    },
+    {
+      "id": "bella",
+      "name": "Bella",
+      "description": "ملابس نسائية مريحة وأنيقة",
+      "imageUrl": "https://bella-eg.com/wp-content/uploads/2025/04/Asset-17011-300x248-1.png",
+      "rating": 0,
+      "category": "ملابس",
+      "subcategory": "womens_clothing",
+      "isActive": true
+    },
+    {
+      "id": "soliman_abaya",
+      "name": "Soliman Abaya",
+      "description": "إسدالات و عبايات إسلامية سوداء",
+      "imageUrl": "https://solimanabaya.easy-orders.net/",
+      "rating": 0,
+      "category": "ملابس",
+      "subcategory": "Headscarf",
+      "isActive": true
+    },
+    {
+      "id": "adam_store",
+      "name": "Adam Store",
+      "description": "ملابس بيت مختارة بعناية تناسب احتياجك، لانجري جذاب ومريح",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh1ECngPE2LYc4UuQRglh6m4jGtdIMfz13xPbjWyTICA&s=10",
+      "rating": 0,
+      "category": "ملابس",
+      "subcategory": "women_fashion",
+      "isActive": true
+    },
+    {
+      "id": "mahshi_hub",
+      "name": "Mahshi Hub",
+      "description": "اكل طازة بطعم بيتي فلاحي بأيدي شيفات متخصصة جاهز علي التسوية",
+      "imageUrl": "https://mahshihub.com/image/cache/catalog/footer/logo-retina-1024x1024.webp",
+      "rating": 0,
+      "category": "أكل",
+      "subcategory": "home_food",
       "isActive": true
     }
   ],
