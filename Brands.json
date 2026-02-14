@@ -6,6 +6,16 @@
   ],
   "stores": [
     {
+  "id": "2oolameme",
+  "name": "قول أميم",
+  "description": "أستمتع بألعاب مصرية مبتكرة وممتعة لأول مرة مع تجربة فريدة من 'قول أميم'!",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYJoAFTIaTCszUy33OgLBOhyla5Z0uIN7mw&s",
+  "rating": 4.6,
+  "category": "متنوع",
+  "subcategory": "games",
+  "isActive": true
+},
+    {
       "id": "fatis",
       "name": "Fati's",
       "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
