@@ -109,6 +109,35 @@
         }
       ]
     },
+    "2oolameme": {
+  "name": "قول أميم",
+  "orderUrl": "https://2oolameme.com/ar",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYJoAFTIaTCszUy33OgLBOhyla5Z0uIN7mw&s",
+  "description": "ألعاب مصرية ممتعة و مبتكرة لأول مرة مع \"قول أميم\"",
+  "rating": 4.6,
+  "deliveryTime": "5-1 أيام",
+  "deliveryFee": "60 ج.م",
+  "minPrice": 35,
+  "maxPrice": 850,
+  "deliveryAreas": "جميع المحافظات",
+  "paymentMethods": [
+    "الدفع عند الاستلام"
+  ],
+  "socialMedia": {
+    "instagram": "https://www.instagram.com/2oolameme",
+    "facebook": "https://www.facebook.com/2oolameme/",
+    "tiktok": "https://www.tiktok.com/@2oolameme",
+    "website": "https://2oolameme.com/ar/collections/core-games"
+  },
+  "products": [
+    "https://2oolameme.com/cdn/shop/files/tasaliramadannnnnwebb-01.png?v=1770827048&width=1920",
+    "https://2oolameme.com/cdn/shop/files/15gamesbundle-01.png?v=1770827715&width=1920",
+    "https://2oolameme.com/cdn/shop/files/IMG_2214_28b9f266-3474-4275-80da-c04684b99482.jpg?v=1742918530&width=1920",
+    "https://2oolameme.com/cdn/shop/products/wala3agame.png?v=1716284290&width=1920",
+    "https://2oolameme.com/cdn/shop/files/IMG_3562_jpg.jpg?v=1716284458&width=1920"
+  ],
+  "productsList": []
+},
     "special_food": {
       "name": "SPECIAL FOOD",
       "orderUrl": "https://special.vondera.io/",
