@@ -386,30 +386,6 @@
       "products": [],
       "productsList": []
     },
-    "adam_store": {
-      "name": "Adam Store",
-      "orderUrl": "https://adamstore.co/",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh1ECngPE2LYc4UuQRglh6m4jGtdIMfz13xPbjWyTICA&s=10",
-      "description": "ملابس بيت مختارة بعناية تناسب احتياجك،لانجري جذاب ومريح",
-      "deliveryTime": "7-3 ايام",
-      "deliveryFee": "55 ج.م",
-      "minPrice": 140,
-      "maxPrice": 1095,
-      "deliveryAreas": "جميع المحافظات",
-      "paymentMethods": [
-        "الدفع عند الاستلام",
-        "بطاقات الدفع"
-      ],
-      "socialMedia": {
-        "instagram": "https://www.instagram.com/adam.stores?igsh=MWx5cjU0ZHRxa243bw==",
-        "facebook": "https://www.facebook.com/share/182jbXCXq5/",
-        "website": "https://adamstore.co/",
-        "phone": "01100887774",
-        "whatsapp": "https://wa.me/01100887774?text=%20السلام%20عليكم,%0Aكنت%20شوفت%20البراند%20ده%20على%20تطبيق%20EasyGet%20و%20عجبني%20و"
-      },
-      "products": [],
-      "productsList": []
-    },
     "mahshi_hub": {
       "name": "Mahshi Hub",
       "orderUrl": "https://mahshihub.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGniPYFxlOnPHO676_53_zwU6o7ix1SMilWxKHE_9vW1hWYBiELXf9wCUlJ22E_aem_rEtjK_0uapb2uw8Z4hquEQ",
