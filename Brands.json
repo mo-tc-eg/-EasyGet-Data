@@ -66,16 +66,6 @@
       "isActive": true
     },
     {
-      "id": "adam_store",
-      "name": "Adam Store",
-      "description": "ملابس بيت مختارة بعناية تناسب احتياجك، لانجري جذاب ومريح",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh1ECngPE2LYc4UuQRglh6m4jGtdIMfz13xPbjWyTICA&s=10",
-      "rating": 0,
-      "category": "ملابس",
-      "subcategory": "womens_clothing",
-      "isActive": true
-    },
-    {
       "id": "mahshi_hub",
       "name": "Mahshi Hub",
       "description": "اكل طازة بطعم بيتي فلاحي بأيدي شيفات متخصصة جاهز علي التسوية",
