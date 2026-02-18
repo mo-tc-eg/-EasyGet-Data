@@ -108,6 +108,37 @@
         }
       ]
     },
+    "Al-Safa" :{
+      "name": "الصفأ",
+      "orderUrl": "https://elsafa-gf.com/product-category/%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA/",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwoJTSDwSacGI6MRie9pZW2VJ3WSC4l7i6dQ&s",
+      "description": "مسكرات الصفأ مكسرات غير أي مكسرات طازجة و محمصة أطلب الآن و استمتع بأجمل سهرة! 😍🥜",
+      "rating": 4.3,
+      "deliveryTime": "3-1 أيام عمل",
+      "deliveryFee": "المعلومة دي مش متحددة دلوقتي!",
+      "minPrice": 60,
+      "maxPrice": 3400,
+      "deliveryAreas": "القاهرة، الجيزة، الإسكندرية، الدقهلية، الشرقية، ومدن القناة.",
+      "paymentMethods": [
+        "الدفع عند الاستلام",
+        "بطاقات الدفع"
+      ],
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/elsafa.nuts?igsh=c2V1NTlucTdwNndr",
+        "facebook": "https://www.facebook.com/share/17vvqBf5vP/?mibextid=wwXIfr",
+        "tiktok": "https://www.tiktok.com/@safanuts?lang=en-GB&is_from_webapp=1&sender_device=mobile&sender_web_id=7608267016012891649",
+        "website": "https://elsafa-gf.com/?fbclid=IwVERDUAQC3Z5leHRuA2FlbQIxMABzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeCOjUEsdtCTEB1nQYtprojTuWDeIwlO2MuAjV41ntw2OC8n-Uqu6gPHqyfhs_aem_wqyXNiqgET5Yt2ojwZNBEQ",
+        "whatsapp": "20112100639132924456768433596045751",
+        "phone": "01121006391"
+      },
+      "products": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fTxrupKBaXaMXCIR6FBIZ1C4emByOMp3tJhBfxRwfg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYjjbaYL_xq0AAJf89mHl6tpR4QZjAKlh6HEX51Ko1Eg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbVUJDcJeytNv7YJskW_phtPMwa0ad3ybrOKr7-snGDzqFDLvuCaHjNfY&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8wzZUPey32Wgy8CerEgcE7MDYXg1u6PXT5L1lfigdYxGqQboTYKR6Wu0&s=10"
+      ],
+      "productsList": []
+    },
     "2oolameme": {
   "name": "قول أميم",
   "orderUrl": "https://2oolameme.com/ar",
