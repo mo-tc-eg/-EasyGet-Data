@@ -6,6 +6,16 @@
   ],
   "stores": [
     {
+  "id": "al_safa",
+  "name": "الصفأ",
+  "description": "مسكرات الصفأ مكسرات غير أي مكسرات طازجة و محمصة أطلب الآن و استمتع بأجمل سهرة! 😍🥜",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwoJTSDwSacGI6MRie9pZW2VJ3WSC4l7i6dQ&s",
+  "rating": 4.3,
+  "category": "أكل",
+  "subcategory": "nuts",
+  "isActive": true
+},
+    {
   "id": "2oolameme",
   "name": "قول أميم",
   "description": "أستمتع بألعاب مصرية مبتكرة وممتعة لأول مرة مع تجربة فريدة من 'قول أميم'!",
