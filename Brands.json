@@ -16,6 +16,15 @@
   "isActive": true
 },
 {
+  "id": "capixy_hair_fertilizer",
+  "name": "Capixy Hair Fertilizer",
+  "description": "منتج كابيكسي بيدي شعرك روتين صحي وقوي، بتركيبته الغنية اللي بتستهدف أهم أسباب تساقط الشعر وبتخليه أقوى وكثيف أكتر 🫰🏻",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3giIMkSu3Dc4p7yQ-b69r60KyJ-Hx3Z5kA8bvxizNdmQmjZD6HalR4U&s=10",
+  "category": "العناية",
+  "subcategory": "hairecare",
+  "isActive": true
+},
+{
 "qcase_store": 
   "name": "Qcase Store",
   "description": "نقدم الأناقة والأسلوب و الحماية لأجهزتك من خلال منتجاتنا المتميزة عالية الجودة! ❤️",
