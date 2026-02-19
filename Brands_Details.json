@@ -478,6 +478,62 @@
       "products": [],
       "productsList": []
     },
+"qcase_store": {
+"name": "Qcase Store",
+"orderUrl": "https://qstorecases.com/collections",
+"imageUrl": "https://qstorecases.com/collections",
+"description": "نقدم الأناقة والأسلوب و الحماية لأجهزتك من خلال منتجاتنا المتميزة عالية الجودة! ❤️",
+"deliveryTime": "8-6 أيام",
+"deliveryFee": "60 ج.م",
+"minPrice": 20,
+"maxPrice": 1000,
+"deliveryAreas": "جميع المحافظات",
+"paymentMethods": [
+"بطاقات الدفع",
+"فودافون كاش"
+],
+"socialMedia": {
+"instagram": "https://www.instagram.com/qcase_store1?igsh=NWUzM2tsa29ucm9z",
+"facebook": "https://www.facebook.com/share/14WYR4B5n5T/?mibextid=wwXIfr",
+"tiktok": "https://www.tiktok.com/@qcasestore?_r=1&_t=ZS-943sJmZ4g2J",
+"whatsapp": "https://wa.me/201151682138",
+"website": "https://qstorecases.com/",
+"phone": "01151682138"
+},
+"products": [
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcf-rkqlLWFa-XzVFUyIjL8lhjHTwCT0lPn1ROcByMuw&s",
+"https://qstorecases.com/cdn/shop/products/tiger-phone-cover-qcase-store-or-everyday-case-1.jpg?v=1661101461&width=600",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRXm3ktazYtsOltpvQ1eVwEaKUjrPRLo4twQY23Z5LA&s",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-P2EXYkf5Qh2mhgqYwGjFx_1i28YrGPrNtqI2BW8Ww&s"
+],
+"productsList": []
+},
+
+"capixy_hair_fertilizer": {
+"name": "Capixy Hair Fertilizer",
+"orderUrl": "https://e-majestic.com/?utm_source=ig&utm_medium=social&utm_content=link_",
+"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3giIMkSu3Dc4p7yQ-b69r60KyJ-Hx3Z5kA8bvxizNdmQmjZD6HalR4U&s=10",
+"description": "منتج كابيكسي بيدي شعرك روتين صحي وقوي، بتركيبته الغنية اللي بتستهدف أهم أسباب تساقط الشعر وبتخليه أقوى وكثيف أكتر ✨",
+"deliveryTime": "5-3 ايام",
+"deliveryFee": "49 ج.م",
+"minPrice": 95,
+"maxPrice": 1495,
+"deliveryAreas": "جميع المحافظات",
+"paymentMethods": [
+"الدفع عند الاستلام",
+"بطاقات الدفع"
+],
+"socialMedia": {
+"instagram": "https://www.instagram.com/capixyhairfertilizer?igsh=d2RxYTR5MjgyNGU1",
+"facebook": "https://www.facebook.com/share/1BrmBua99K/",
+"tiktok": "https://www.tiktok.com/@capixyhaircare?_r=1&_t=ZS-943nXGcCcBJ",
+"website": "https://e-majestic.com/?utm_source=ig&utm_medium=social&utm_content=link_",
+"whatsapp": "https://wa.me/201155285835",
+"phone": "01155285835"
+},
+"products": [],
+"productsList": []
+},
     "mahshi_hub": {
       "name": "Mahshi Hub",
       "orderUrl": "https://mahshihub.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGniPYFxlOnPHO676_53_zwU6o7ix1SMilWxKHE_9vW1hWYBiELXf9wCUlJ22E_aem_rEtjK_0uapb2uw8Z4hquEQ",
