@@ -95,6 +95,24 @@
       "category": "أكل",
       "subcategory": "home_food",
       "isActive": true
+    },
+    {
+      "id": "dermacy_laboratories",
+      "name": "Dermacy Laboratories",
+      "description": "علامة تجارية للعناية بالبشرة، من خبراء يهتمون. تفضل بزيارتنا علي موقعنا الإلكتروني.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gYPeLWvfzWF0nZwZIiA52Zv3b9rDl3YVsbWZCBduuENSUAUrfHs3pxQ&s=10",
+      "category": "العناية",
+      "subcategory": "skincare",
+      "isActive": true
+    },
+    {
+      "id": "der_belal_perfumes",
+      "name": "Der Belal Perfumes",
+      "description": "نقدم أرقي العطور الإماراتية إلي مصر ، الموزع الحصري للعلامات التجارية الإماراتية الرائدة أكثر من 1000 عطر إماراتي أصلي!",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdJteQkIRfYb1j0uCQm7B1yVa-T0iU6Rjf2dAPcOLoKnkD57csQTCHO-_&s=10q=tbn:ANd9GcR5gYPeLWvfzWF0nZwZIiA52Zv3b9rDl3YVsbWZCBduuENSUAUrfHs3pxQ&s=10",
+      "category": "العناية",
+      "subcategory": "perfumes",
+      "isActive": true
     }
   ],
   "ramadanContainer": {
