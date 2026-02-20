@@ -108,6 +108,61 @@
         }
       ]
     },
+    
+{
+"der_belal_perfumes": {
+"name": "Der Belal Perfumes",
+"orderUrl": "https://darbelal.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQFIvZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadpP118xYK_FcC0UcogcLx2eha9OMSWwc-qIuKwySpD9tXW8pNru8_JsG8V9Q_aem_Cvij3uvwNDWwdpUD2FWGlQ",
+"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdJteQkIRfYb1j0uCQm7B1yVa-T0iU6Rjf2dAPcOLoKnkD57csQTCHO-_&s=10",
+"description": "نقدم أرقي العطور الإماراتية إلي مصر ، الموزع الحصري للعلامات التجارية الإماراتية الرائدة أكثر من 1000 عطر إماراتي أصلي!",
+"deliveryTime": "5-3 أيام",
+"deliveryFee": "رسوم التوصيل على حسب المحافظة!",
+"minPrice": 50,
+"maxPrice": 3100,
+"deliveryAreas": "جميع المحافظات",
+"paymentMethods": [
+"الدفع عند الاستلام",
+"بطاقات الدفع"
+],
+"socialMedia": {
+"instagram": "https://www.instagram.com/darbelalperfumes?igsh=MjF3eGNzaWZoMWNh",
+"facebook": "https://www.facebook.com/share/19frQFATs4/?mibextid=wwXIfr",
+"tiktok": "https://www.tiktok.com/@darbelal.perfumes?_r=1&_t=ZS-944tN1TNrXB",
+"phone": "01103666315",
+"website": "https://darbelal.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQFIvZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadpP118xYK_FcC0UcogcLx2eha9OMSWwc-qIuKwySpD9tXW8pNru8_JsG8V9Q_aem_Cvij3uvwNDWwdpUD2FWGlQ"
+},
+"products": [
+"https://darbelal.com/cdn/shop/files/Musk_20Tahara_20Non_20Alcoholic_20Body_20_26_20Hair_20Mist_20_20100_20ML_20-_20_20By_20Naseem.jpg?v=1768304846&width=600",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHV5EGssh_yJ-KeqqCFtuKNk9qOVSbAZk09ZXydJlalhYO2QGSsjkpQBxP&s=10",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMgSfCB8cHkH8CgOR2VrTD22gFNmAV83ItN8fvjxZbZmcqOfkcG961FU&s=10"
+],
+"productsList": []
+},
+
+{
+"dermacy_laboratories": {
+"name": "Dermacy Laboratories",
+"orderUrl": "https://dermacylabs.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQFKdpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafxRQdr1jTw0hqp9TGzkwXUwNmKVlvSYJDxFmG9zqnKHHswiWuomDvsgyj9bw_aem_UH4yGeg_c0JrtbRdP7H2PQ",
+"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gYPeLWvfzWF0nZwZIiA52Zv3b9rDl3YVsbWZCBduuENSUAUrfHs3pxQ&s=10",
+"description": "علامة تجارية للعناية بالبشرة، من خبراء يهتمون. تفضل بزيارتنا علي موقعنا الإلكتروني.",
+"deliveryTime": "4-2 أيام",
+"deliveryFee": "65",
+"minPrice": 80,
+"maxPrice": 1393,
+"deliveryAreas": "جميع المحافظات",
+"paymentMethods": [
+"الدفع عند الاستلام",
+"بطاقات الدفع"
+],
+"socialMedia": {
+"instagram": "https://www.instagram.com/dermacylabs?igsh=dzBjejg1bXhmY29t",
+"facebook": "https://www.facebook.com/share/17ohoEt9Pt/?mibextid=wwXIfr",
+"tiktok": "https://www.tiktok.com/@dermacylabs?_r=1&_t=ZS-944vKvAAQOi",
+"website": "https://dermacylabs.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQFKdpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafxRQdr1jTw0hqp9TGzkwXUwNmKVlvSYJDxFmG9zqnKHHswiWuomDvsgyj9bw_aem_UH4yGeg_c0JrtbRdP7H2PQ"
+},
+"products": [],
+"productsList": []
+},
     "al_safa" :{
       "name": "الصفا",
       "orderUrl": "https://elsafa-gf.com/product-category/%D9%85%D9%83%D8%B3%D8%B1%D8%A7%D8%AA/",
