@@ -1,10 +1,10 @@
 {
   "maintenance": {
-    "isActive": false,
-    "title": "النسخة دي مش متاحة حالياً!",
+    "isActive": true,
+    "title": "متأسفين للأزعج!",
     "description": "هذه النسخة من التطبيق لم تعد متوفرة. يرجى تحديث التطبيق إلى أحدث إصدار!",
     "expectedTime": "متوقع وقت الرجوع:",
-    "timeText": "غير محدد!",
+    "timeText": "أقل من ساعة!",
     "imagePath": "https://i.postimg.cc/yx5bmC49/Untitled-design.png"
   },
   "socialMedia": {
