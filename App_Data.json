@@ -1,6 +1,6 @@
 {
   "maintenance": {
-    "isActive": true,
+    "isActive": false,
     "title": "متأسفين لإزعاج!",
     "description": "هذه النسخة من التطبيق لم تعد متوفرة. يرجى تحديث التطبيق إلى أحدث إصدار!",
     "expectedTime": "متوقع وقت الرجوع:",
