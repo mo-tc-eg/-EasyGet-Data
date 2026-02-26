@@ -117,16 +117,16 @@
   ],
   "ramadanContainer": {
     "show": true,
-    "title": "رمضانك_أسهل_معانا",
+    "title": "!رمضانك_أسهل_معانا",
     "short_title": "بنقترح عليك المنتجات دي👇",
     "products": [
       [
-        {
-          "brand_id": "fatis",
-          "name_product_ramadan": "دونات شوكولاتة",
-          "price_product_ramadan": "75",
-          "name_product_brand": "من براند فاتس",
-          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none"
+         {
+          "brand_id": "al_safa",
+          "name_product_ramadan": "بوكس أهلاً رمضان ",
+          "price_product_ramadan": "3400",
+          "name_product_brand": "من براند الصفا",
+          "image_product_ramadan": "https://elsafa-gf.com/wp-content/uploads/2026/02/%D8%A7%D9%87%D9%84%D8%A7-%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg.jpeg"
         },
         {
           "brand_id": "special_food",
@@ -135,6 +135,20 @@
           "name_product_brand": "من براند سباشيل فود",
           "image_product_ramadan": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/a39630eb-a5f4-469a-b395-4649113a58ef.webp"
         },
+          {
+          "brand_id": "fatis",
+          "name_product_ramadan": "دونات شوكولاتة",
+          "price_product_ramadan": "75",
+          "name_product_brand": "من براند فاتس",
+          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none"
+        },
+         {
+          "brand_id": "2oolameme",
+          "name_product_ramadan": "تسالي رمضان",
+          "price_product_ramadan": "45",
+          "name_product_brand": "من براند قول أميم",
+          "image_product_ramadan": "https://2oolameme.com/cdn/shop/files/WhatsAppImage2026-02-02at11.00.50AM_1.jpg?v=1770825994&width=1920"
+  },
         {
           "brand_id": "fatis",
           "name_product_ramadan": "دونات فانليا بومب",
