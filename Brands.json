@@ -157,6 +157,13 @@
           "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Fe2a77618-5849-4008-ae9d-55375cf522fd%2Foriginal%2FWhatsApp_Image_2025-07-13_at_08.52.51_f179e55c_640x_auto_none"
         },
         {
+          "brand_id": "special_food",
+          "name_product_ramadan": "بوكس سبيشيال-1",
+          "price_product_ramadan": "399",
+          "name_product_brand": "من براند سباشيل فود",
+          "image_product_ramadan": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/043525c5-79eb-44de-a24b-579abfbcac89.webp"
+        },
+        {
           "brand_id": "fatis",
           "name_product_ramadan": "تيراميسو",
           "price_product_ramadan": "110",
