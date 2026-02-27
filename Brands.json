@@ -7,6 +7,15 @@
   ],
   "stores": [
     {
+      "id": "fatis",
+      "name": "Fati's",
+      "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
+      "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
+      "category": "أكل",
+      "subcategory": "sweets",
+      "isActive": true
+    },
+    {
   "id": "al_safa",
   "name": "الصفا",
   "description": "مسكرات الصفا مكسرات غير أي مكسرات طازجة و محمصة أطلب الآن و استمتع بأجمل سهرة! 😍🥜",
@@ -42,15 +51,6 @@
   "subcategory": "games",
   "isActive": true
 },
-    {
-      "id": "fatis",
-      "name": "Fati's",
-      "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
-      "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
-      "category": "أكل",
-      "subcategory": "sweets",
-      "isActive": true
-    },
     {
       "id": "special_food",
       "name": "special food",
