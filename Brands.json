@@ -1,132 +1,16 @@
 {
-  "sliderImages": [
-    "https://i.postimg.cc/kXDhkXZW/mʿak-fy-rmdan-fy-ay-hajt-w-kl-hajt.png",
-    "https://i.postimg.cc/FRyT7Bh2/Cream-and-Brown-Illustrative-Food-Journal-Presentation.png",
-    "https://i.postimg.cc/Rqrs7wRv/ns-fqrtk.png",
-    "https://i.postimg.cc/s2qvJsnV/tsmymat-albrandat.png"
-  ],
-  "stores": [
-    {
-      "id": "fatis",
-      "name": "Fati's",
-      "description": "دونات ومخبوزات مصنوعة يدويًا بكل حب 💗",
-      "imageUrl": "https://images.deliveryhero.io/image/talabat/restaurants/04b3c19f1ab14636862c268c0638405090251166939.jpg?width=180",
-      "category": "أكل",
-      "subcategory": "sweets",
-      "isActive": true
-    },
-    {
-  "id": "al_safa",
-  "name": "الصفا",
-  "description": "مسكرات الصفا مكسرات غير أي مكسرات طازجة و محمصة أطلب الآن و استمتع بأجمل سهرة! 😍🥜",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwoJTSDwSacGI6MRie9pZW2VJ3WSC4l7i6dQ&s",
-  "category": "أكل",
-  "subcategory": "nuts",
-  "isActive": true
-},
-{
-  "id": "capixy_hair_fertilizer",
-  "name": "Capixy Hair Fertilizer",
-  "description": "منتج كابيكسي بيدي شعرك روتين صحي وقوي، بتركيبته الغنية اللي بتستهدف أهم أسباب تساقط الشعر وبتخليه أقوى وكثيف أكتر 🫰🏻",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3giIMkSu3Dc4p7yQ-b69r60KyJ-Hx3Z5kA8bvxizNdmQmjZD6HalR4U&s=10",
-  "category": "العناية",
-  "subcategory": "haircare",
-  "isActive": true
-},
-{
-  "id": "qcase_store",
-  "name": "Qcase Store",
-  "description": "نقدم الأناقة والأسلوب و الحماية لأجهزتك من خلال منتجاتنا المتميزة عالية الجودة! ❤️",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSAQ2MyF1tkEmhbKH_T4wcOFCSBm1a153s5TpJX-4-ch9KfNsSsAldKis&s=10",
-  "category": "إلكترونيات",
-  "subcategory": "mobile_cases",
-  "isActive": true
-},
-    {
-  "id": "2oolameme",
-  "name": "قول أميم",
-  "description": "أستمتع بألعاب مصرية مبتكرة وممتعة لأول مرة مع تجربة فريدة من 'قول أميم'!",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYJoAFTIaTCszUy33OgLBOhyla5Z0uIN7mw&s",
-  "category": "متنوع",
-  "subcategory": "games",
-  "isActive": true
-},
-    {
-      "id": "special_food",
-      "name": "special food",
-      "description": "متجرنا متخصص في تصنيع البرجر فقط… بنركز على حاجة واحدة بس، ونعملها بأعلى جودة ممكنة 👌",
-      "imageUrl": "https://www.elsupplier.com/_next/image?url=https%3A%2F%2Fportal.elsupplier.com%2Fbackend%2Fpublic%2Fstorage%2FsupplierImage%2F456605869_1237233907468765_2532638255538886622_n955967000.jpg&w=256&q=50",
-      "category": "أكل",
-      "subcategory": "fast_food",
-      "isActive": true
-    },
-    {
-      "id": "loai_perfumes",
-      "name": "Loai Perfumes",
-      "description": "عطر بثبات وفخامة أطلب الأن عطرك المفضل!",
-      "imageUrl": "https://assets.wuiltstore.com/cmjzve3r4016u01fu28inccy4_LOAI_logo_transparent.webp",
-      "category": "العناية",
-      "subcategory": "perfumes",
-      "isActive": true
-    },
-    {
-      "id": "bella",
-      "name": "Bella",
-      "description": "ملابس نسائية مريحة وأنيقة",
-      "imageUrl": "https://bella-eg.com/wp-content/uploads/2025/04/Asset-17011-300x248-1.png",
-      "category": "ملابس",
-      "subcategory": "womens_clothing",
-      "isActive": true
-    },
-    {
-      "id": "soliman_abaya",
-      "name": "Soliman Abaya",
-      "description": "إسدالات و عبايات إسلامية سوداء",
-      "imageUrl": "https://files.easy-orders.net/1724773142895958282.png",
-      "category": "ملابس",
-      "subcategory": "Headscarf",
-      "isActive": true
-    },
-    {
-      "id": "mahshi_hub",
-      "name": "Mahshi Hub",
-      "description": "اكل طازة بطعم بيتي فلاحي بأيدي شيفات متخصصة جاهز علي التسوية",
-      "imageUrl": "https://mahshihub.com/image/cache/catalog/footer/logo-retina-1024x1024.webp",
-      "category": "أكل",
-      "subcategory": "home_food",
-      "isActive": true
-    },
-    {
-      "id": "dermacy_laboratories",
-      "name": "Dermacy Laboratories",
-      "description": "علامة تجارية للعناية بالبشرة، من خبراء يهتمون. تفضل بزيارتنا علي موقعنا الإلكتروني.",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gYPeLWvfzWF0nZwZIiA52Zv3b9rDl3YVsbWZCBduuENSUAUrfHs3pxQ&s=10",
-      "category": "العناية",
-      "subcategory": "skincare",
-      "isActive": true
-    },
-    {
-      "id": "der_belal_perfumes",
-      "name": "Der Belal Perfumes",
-      "description": "نقدم أرقي العطور الإماراتية إلي مصر ، الموزع الحصري للعلامات التجارية الإماراتية الرائدة أكثر من 1000 عطر إماراتي أصلي!",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdJteQkIRfYb1j0uCQm7B1yVa-T0iU6Rjf2dAPcOLoKnkD57csQTCHO-_&s=10q=tbn:ANd9GcR5gYPeLWvfzWF0nZwZIiA52Zv3b9rDl3YVsbWZCBduuENSUAUrfHs3pxQ&s=10",
-      "category": "العناية",
-      "subcategory": "perfumes",
-      "isActive": true
-    }
-  ],
   "ramadanContainer": {
     "show": true,
-    "title": "!رمضانك_أسهل_معانا",
+    "title": "معانا العيد أحلي!",
     "short_title": "بنقترح عليك المنتجات دي👇",
     "products": [
       [
-         {
-          "brand_id": "al_safa",
-          "name_product_ramadan": "بوكس أهلاً رمضان ",
-          "price_product_ramadan": "3400",
-          "name_product_brand": "من براند الصفا",
-          "image_product_ramadan": "https://elsafa-gf.com/wp-content/uploads/2026/02/%D8%A7%D9%87%D9%84%D8%A7-%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg.jpeg"
+        {
+          "brand_id": "fatis",
+          "name_product_ramadan": "تيراميسو",
+          "price_product_ramadan": "110",
+          "name_product_brand": "من براند فاتس",
+          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Faa54d767-8871-4ee2-b589-d726eb4785ed%2Foriginal%2F191975_1729386442_9d496a75-26a2-4afd-92d2-d73f9d72a733_640x_auto_none"
         },
         {
           "brand_id": "special_food",
@@ -135,20 +19,20 @@
           "name_product_brand": "من براند سباشيل فود",
           "image_product_ramadan": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/a39630eb-a5f4-469a-b395-4649113a58ef.webp"
         },
-          {
+        {
           "brand_id": "fatis",
           "name_product_ramadan": "دونات شوكولاتة",
           "price_product_ramadan": "75",
           "name_product_brand": "من براند فاتس",
           "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2F99272cfd-c2a8-4a0a-8981-ef6922056f48%2Foriginal%2F191975_1715881347_9c0ef9d2-629b-4cdc-a885-eea7b493593d_640x_auto_none"
         },
-         {
+        {
           "brand_id": "2oolameme",
           "name_product_ramadan": "تسالي رمضان",
           "price_product_ramadan": "45",
           "name_product_brand": "من براند قول أميم",
           "image_product_ramadan": "https://2oolameme.com/cdn/shop/files/WhatsAppImage2026-02-02at11.00.50AM_1.jpg?v=1770825994&width=1920"
-  },
+        },
         {
           "brand_id": "fatis",
           "name_product_ramadan": "دونات فانليا بومب",
@@ -162,19 +46,10 @@
           "price_product_ramadan": "399",
           "name_product_brand": "من براند سباشيل فود",
           "image_product_ramadan": "https://vondera-bucket.s3.eu-north-1.amazonaws.com/stores/ET2ieTH74ROIQXzcEEYx7xepvqs2/gallery/043525c5-79eb-44de-a24b-579abfbcac89.webp"
-        },
-        {
-          "brand_id": "fatis",
-          "name_product_ramadan": "تيراميسو",
-          "price_product_ramadan": "110",
-          "name_product_brand": "من براند فاتس",
-          "image_product_ramadan": "https://d1l6fcuu6fcorr.cloudfront.net/photos%2Fmenu_items%2Fphoto_urls%2Faa54d767-8871-4ee2-b589-d726eb4785ed%2Foriginal%2F191975_1729386442_9d496a75-26a2-4afd-92d2-d73f9d72a733_640x_auto_none"
         }
       ]
     ],
-    "startDate": "2026-01-26",
-    "endDate": "2026-03-12"
-  },
-  "coupons": [
-  ]
+    "startDate": "2026-01-19",
+    "endDate": "2026-03-21"
+  }
 }
