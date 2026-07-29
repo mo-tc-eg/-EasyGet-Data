@@ -1,16 +1,25 @@
 {
   "maintenance": {
-  "isActive": false,
- "title": "نعتذر، الخدمة متوقفة مؤقتاً!",
-  "description": "نقوم حالياً بأعمال صيانة دورية لتحسين استقرار الخدمة. سيتم استعادة التطبيق للعمل قريباً.",
-  "expectedTime": "متوقع وقت الرجوع:",
-  "timeText": "خلال الساعة 10:04 مساءا",
-  "imagePath": "https://i.postimg.cc/yx5bmC49/Untitled-design.png"
-},
+    "isActive": false,
+    "title": "نعتذر، الخدمة متوقفة مؤقتاً!",
+    "description": "نقوم حالياً بأعمال صيانة دورية لتحسين استقرار الخدمة. سيتم استعادة التطبيق للعمل قريباً.",
+    "expectedTime": "متوقع وقت الرجوع:",
+    "timeText": "خلال الساعة 10:04 مساءا",
+    "imagePath": "https://i.postimg.cc/yx5bmC49/Untitled-design.png"
+  },
   "socialMedia": {
     "facebook": "https://www.facebook.com/share/1B7ToNg1QS/?mibextid=wwXIfr",
     "instagram": "https://instagram.com/easyget.eg",
     "tiktok": "https://www.tiktok.com/@easyget.app?_r=1&_t=ZS-940QPte5ce8",
     "whatsapp": "https://wa.me/201125933983"
+  },
+  "categoryImages": {
+    "ملابس": "https://example.com/images/clothes.png",
+    "أكل": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpwGXkGk_DfC4HmXsXc0xDASRVfqZPXvyTdtvhEWZ7_0mA7CDos85T04o&s=10",
+    "البيت": "https://example.com/images/home.png",
+    "إلكترونيات": "https://example.com/images/electronics.png",
+    "العناية": "https://example.com/images/care.png",
+    "المكتبة": "https://example.com/images/library.png",
+    "متنوع": "https://example.com/images/misc.png"
   }
 }
