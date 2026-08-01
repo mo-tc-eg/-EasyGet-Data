@@ -4,7 +4,7 @@
     "title": "نعتذر، الخدمة متوقفة مؤقتاً!",
     "description": "نقوم حالياً بأعمال صيانة دورية لتحسين استقرار الخدمة. سيتم استعادة التطبيق للعمل قريباً.",
     "expectedTime": "متوقع وقت الرجوع:",
-    "timeText": "خلال الساعة 09:04 مساءا",
+    "timeText": "خلال الساعة 09:04 مساءً",
     "imagePath": "https://i.postimg.cc/yx5bmC49/Untitled-design.png"
   },
   "socialMedia": {
@@ -12,5 +12,5 @@
     "instagram": "https://instagram.com/easyget.eg",
     "tiktok": "https://www.tiktok.com/@easyget.app?_r=1&_t=ZS-940QPte5ce8",
     "whatsapp": "https://wa.me/201125933983"
-  },
+  }
 }
