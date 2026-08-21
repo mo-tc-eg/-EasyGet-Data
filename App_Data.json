@@ -1,10 +1,10 @@
 {
   "maintenance": {
-    "isActive": false,
+    "isActive": true,
     "title": "نعتذر، الخدمة متوقفة مؤقتاً!",
     "description": "نقوم حالياً بأعمال صيانة دورية لتحسين استقرار الخدمة. سيتم استعادة التطبيق للعمل قريباً.",
     "expectedTime": "متوقع وقت الرجوع:",
-    "timeText": "خلال الساعة 09:04 مساءً",
+    "timeText": "خلال الساعة 03:00 مساءً",
     "imagePath": "https://i.postimg.cc/yx5bmC49/Untitled-design.png"
   },
   "socialMedia": {
